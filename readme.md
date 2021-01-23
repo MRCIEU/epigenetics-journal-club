@@ -3,7 +3,7 @@
 The IEU epigenetics journal club meets 1-2 Mondays per month.
 Each meeting relevant papers published since the last meeting are
 briefly presented and discussed. This repository contains:
-- presentations
+- [presentations](https://mrcieu.github.io/epigenetics-journal-club/)
 - scripts for selecting candidate papers
 - data files recording previous candidate papers and presented papers
 
