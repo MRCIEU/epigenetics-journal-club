@@ -20,7 +20,8 @@ if (file.exists(filename))
 cat(paste("Looking back", days, "days for new papers ...\n"))
 
 library(journalclub) ## https://github.com/perishky/journalclub 
-candidates <- journalclub.candidates("data", recent=days) 
-write.csv(candidates, file=filename) 
+candidates <- journalclub.candidates("data", recent=days)
+
+write.csv(candidates[,c("pmid","title","source","abstract")], file=filename, row.names=F) 
 
 cat(paste0("Candidate papers saved to '", filename, "'.\n"))
