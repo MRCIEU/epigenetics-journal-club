@@ -5,7 +5,7 @@ Each meeting relevant papers published since the last meeting are
 briefly presented and discussed. This repository contains:
 - [presentations](https://mrcieu.github.io/epigenetics-journal-club/)
 - scripts for selecting candidate papers
-- data files recording previous candidate papers and presented papers
+- data files recording previous candidate papers and [presented papers](https://github.com/MRCIEU/epigenetics-journal-club/blob/main/data/papers.csv)
 
 ## How candidate papers are selected 
 
