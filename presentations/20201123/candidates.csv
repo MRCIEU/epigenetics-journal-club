@@ -1,0 +1,10 @@
+pmid,title,journal,variable,tissue,n,assocs,notes
+33076993,Serious neonatal morbidities are associated with differences in DNA methylation among very preterm infants.,Clin Epigenetics,neonatal morbidity score,buccal,532,10,
+33137917,Association between Breastfeeding and DNA Methylation over the Life Course: Findings from the Avon Longitudinal Study of Parents and Children (ALSPAC).,Nutrients,breastfeeding,blood,640 (7),1,ALSPAC data; some agreement at age 15-17
+33184255,Association between DNA methylation and ADHD symptoms from birth to school age: a prospective meta-analysis.,Transl Psychiatry,ADHD,cord blood; blood (7-11),2477;2374,9;none,PACE study
+33173928,"Exposure to violence, chronic stress, nasal DNA methylation, and atopic asthma in children.",medRxiv,violence/stress,blood (9-20),487,gun violence=1;maternal stress=2,a few of top 100 stress/violence sites associated with asthma 
+33150670,Sex-specific associations of asthma acquisition with changes in DNA methylation during adolescence.,Clin Exp Allergy,asthma,blood,275 (10-18),535,"interactions with sex at 13 sites, most replicated"
+33178681,DNA Methylation Associated With Diabetic Kidney Disease in Blood-Derived DNA.,Front Cell Dev Biol,diabetic kidney disease,blood,cases=150;ctrls=100,22,all have type 2 diabetes
+33152445,PTSD is associated with increased DNA methylation across regions of HLA-DPB1 and SPATC1L.,Brain Behav Immun,PTSD,blood,367,2 DMRs,"Grady Trauma Project, DMRs by bumphunter!"
+33134824,Epigenome-Wide Association Study Using Prediagnostic Bloods Identifies New Genomic Regions Associated With Pancreatic Cancer Risk.,JNCI Cancer Spectr,pancreatic cancer,blood at baseline,824,0,no predictor due to lack of consistency between training/testing
+33100131,Epigenome-wide association study identifies DNA methylation sites associated with target organ damage in older African Americans.,Epigenetics,target organ damage,blood,961,7,used multi-trait regression model

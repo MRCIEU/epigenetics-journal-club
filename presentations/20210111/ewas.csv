@@ -1,0 +1,15 @@
+pmid,journal,variable,tissue,age,n,cohort,assocs,notes
+33406918,Epigenomics,maternal HbA1c,cord blood,0,412,Gen3G,1,Effect direction replicated
+33324494,Environ Epigenet,lead exposure,cord blood,0,420,Mexican pre-birth cohort,none,lead measured in cord blood and maternal blood and bone
+33356526,Environ Health Perspect,per- and polyfluroalkyl substances in maternal blood,cord blood,0,583,,1,
+33338541,J Allergy Clin Immunol,childhood allergy,blood,4 and 8,636 and 821,MeDALL,80,21 replicated
+33407823,Clin Epigenetics,lung function trajectory,blood,10,176 males; 136 females,IOW,41 males; 55 female,"2 male, 1 female replicated in ALSPAC (age 7)"
+33396735,Nutrients,infant feeding,peripheral - cord blood,10,221,Isle of Wight,87,
+33371772,Epigenetics,adolescent victimization,blood and buccal,18,118 MZ twin pairs,E-Risk,72 and 42 (P < 5e-5),
+33371772,Epigenetics,adolescent victimization,buccal cells,"5, 10, 18",118 MZ twin pairs,E-Risk,"20 for 10-18, none for 5-10 (P < 5e-5)",age-victimization interaction
+33331245,Epigenetics,maternal haemoglobin,cord blood; whole blood,0; childhood;adolescence,3967;1534;1962,PACE,none,
+33319642,Epigenetics,IgA Nephropathy (IgA builds up in kidneys),CD19+ B cells,~33,184,Chinese adults,3,
+33397400,Genome Med,APOE ?4 vs APOE ?2 carriers,blood,~50,2469 vs 1118,Generation Scotland ,3 (2 DMRs),"high-density lipoprotein cholesterol partial mediator
+"
+33354722,Int J Epidemiol,diet quality index,blood,~64,4355,Womens Health Initiative,428,24 replicated
+33317634,Clin Epigenetics,age,sperm,18-71,94,,150K of 2.65 million ,methyl-capture

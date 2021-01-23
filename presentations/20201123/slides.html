@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Journal club 20201123</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="my-remark.css">
+    <style>
+        table
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+count: false
+class: left, bottom
+
+# Journal club 
+## November 23, 2020
+&nbsp;
+
+&lt;img src="IEU-logo-colour.png" width="50%"&gt;
+---
+layout: true
+
+.logo[.mrcieu[
+MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;&nbsp;
+]]
+
+---
+
+## EWAS in infant samples
+
+.striped[
+
+|     pmid|title                                                                                                                                                  |journal             |variable                 |tissue                   |n                   |assocs                           |notes                                                            |
+|--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:------------------------|:------------------------|:-------------------|:--------------------------------|:----------------------------------------------------------------|
+| 33076993|Serious neonatal morbidities are associated with differences in DNA methylation among very preterm infants.                                             |Clin Epigenetics    |neonatal morbidity score |buccal                   |532                 |10                               |                                                                 |
+| 33184255|Association between DNA methylation and ADHD symptoms from birth to school age: a prospective meta-analysis.                                            |Transl Psychiatry   |ADHD                     |cord blood; blood (7-11) |2477;2374           |9;none                           |PACE study                                                       |
+]
+
+---
+
+## EWAS in child samples
+
+.striped[
+|     pmid|title                                                                                                                                                  |journal             |variable                 |tissue                   |n                   |assocs                           |notes                                                            |
+|--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:------------------------|:------------------------|:-------------------|:--------------------------------|:----------------------------------------------------------------|
+| 33137917|Association between Breastfeeding and DNA Methylation over the Life Course... |Nutrients           |breastfeeding            |blood                    |640 (7)             |1                                |ALSPAC data; some agreement at age 15-17                         |
+| 33173928|Exposure to violence, chronic stress, nasal DNA methylation, and atopic asthma in children.                                                             |medRxiv             |violence/stress          |blood (9-20)             |487                 |gun violence=1;maternal stress=2 |a few top sites associated with asthma    |
+| 33150670|Sex-specific associations of asthma acquisition with changes in DNA methylation during adolescence.                                                     |Clin Exp Allergy    |asthma                   |blood                    |275 (10-18)         |535                              |sex interactions at 13 sites, most replicated               |
+]
+
+---
+
+## EWAS in adult samples
+
+.striped[
+|     pmid|title                                                                                                                                                  |journal             |variable                 |tissue                   |n                   |assocs                           |notes                                                            |
+|--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:------------------------|:------------------------|:-------------------|:--------------------------------|:----------------------------------------------------------------|
+| 33178681|DNA Methylation Associated With Diabetic Kidney Disease in Blood-Derived DNA.                                                                           |Front Cell Dev Biol |diabetic kidney disease  |blood                    |250 |22                               |all have type 2 diabetes                                         |
+| 33152445|PTSD is associated with increased DNA methylation across regions of HLA-DPB1 and SPATC1L.                                                               |Brain Behav Immun   |PTSD                     |blood                    |367                 |2 DMRs                           |Grady Trauma Project, DMRs by bumphunter!                        |
+| 33134824|EWAS Using Prediagnostic Bloods Identifies New Genomic Regions Associated With Pancreatic Cancer Risk.                      |JNCI Cancer Spectr  |pancreatic cancer        |blood at baseline        |824                 |0                                |no predictor due to lack of consistency between training/testing |
+| 33100131|EWAS identifies DNA methylation sites associated with target organ damage in older African Americans.                       |Epigenetics         |target organ damage      |blood                    |961                 |7                                |used multi-trait regression model                                |
+]
+
+---
+
+
+&lt;img src="cell.png" width="65%"&gt;
+--
+.rightmid[
+.box[
+A new lab method, **SHARE-seq**, generates simultaneous single-cell ATAC-seq and RNA-seq.
+&lt;br&gt;
+&lt;br&gt;
+**Main finding:** during lineage commitment, chromatin accessibility precedes gene expression.
+]]
+
+---
+
+&lt;img src="ng.png" width="75%"&gt;
+
+--
+.rightmid[
+.box[
+* Generate single-cell chromatin accessibility and 3D chromatin interactions across multiple brain regions
+* Predict functional SNPs for AD and PD 
+* Predict genome targets for AD/PD GWAS hits
+]
+]
+
+---
+
+&lt;img src="pm.png" width="90%"&gt;
+
+---
+
+## Background
+
+* Incidence of gestational diabetes is increasing
+
+--
+
+* Obesity is a risk factor
+
+--
+
+* Exposure to gestational diabetes is a risk factor for obesity ...
+
+--
+
+* Questions
+    - What can be done?
+    - Does DNA methylation play a role?
+
+---
+
+## Data
+
+* *UK Pregnancies Better Eating and Activity Trial (UPBEAT)* 
+
+    RCT of lifestyle intervention (low glycaemic index diet plus physical activity) for obese women
+
+* Cord blood DNA methylation in 557 newborns
+
+--
+
+## Methods
+
+* Test DNAm differences due to exposure to gestational diabetes milletus
+
+* Ask if these differences are attenuated by the intervention
+
+---
+
+## DNAm differences due to GDM
+
+.center[
+&lt;img src="pm-table2.png" width="85%"&gt;
+]
+
+--
+
+.center[
+&lt;img src="pm-venn.png" width="30%"&gt;
+]
+
+---
+
+## DNAm differences with/without the intervention
+
+&lt;img src="pm-table2-intervention.png" width="100%"&gt;
+
+--
+
+.center[
+.larger[
+*Is this the best way to show this?*
+]]
+
+---
+
+## Things to consider
+
+* EWAS agreement between fasting glucose and other measures low 
+
+--
+
+* EWAS agreement between the sexes very low
+
+--
+
+* The intervention did not reduce GDM and had no associations with DNAm
+
+    (but did decrease "skinfold thickness and gestational weight gain and improved metabolome" in the mothers, and reduced "subscapsular skinfold thickness z-score at age 6 months" in infants)
+
+--
+
+* We still haven't answered if cord DNAm changes matter.
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script src="slideshow.js"></script>
+  </body>
+</html>      
+ 

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Journal club 20201214</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="my-remark.css">
+    <style>
+        table
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+count: false
+class: left, bottom
+
+# Journal club 
+## December 14, 2020
+&nbsp;
+
+&lt;img src="IEU-logo-colour.png" width="50%"&gt;
+---
+layout: true
+
+.logo[.mrcieu[
+MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;&nbsp;
+]]
+
+---
+
+## EWAS in infants and children
+
+.striped[
+|variable                                       |tissue                 |n                       |assocs                                |notes                                                 |     pmid|journal      |
+|:----------------------------------------------|:----------------------|:-----------------------|:-------------------------------------|:-----------------------------------------------------|--------:|:------------|
+|Maternal first-trimester and delivery lipodome |Cord blood             |100                     |45 and 18 with two lipids at delivery |                                                    | 33290095|Epigenomics  |
+|ART                                            |cord blood             |87 cases vs 70 controls |19                                    |no difference between IVF and ICSI                    | 33227132|Hum Reprod   |
+|lung function trajectories up to age 26        |heel prick blood       |786                     |8                                     |                                                    | 33214203|Eur Respir J |
+|BMI                                            |whole blood (age 2-18) |4133                    |3                                     |strength of adult BMI associations increased with age | 33239103|Genome Med   |
+|Maternal care (sensitivity)                    |whole blood at age 6   |235                     |4 DMRs                                |                                                    | 33267929|Psychol Med  |
+]
+
+---
+
+## EWAS of mental health
+
+.striped[
+|variable                        |tissue            |n                                                               |assocs                      |notes                                                         |     pmid|journal          |
+|:-------------------------------|:-----------------|:---------------------------------------------------------------|:---------------------------|:-------------------------------------------------------------|--------:|:----------------|
+|Alzheimer's disease Braak stage |prefrontal cortex |1000                                                            |3751                        |                                                            | 33257653|Nat Commun       |
+|Alzheimer's disease             |whole blood       |424 at baseline age > 65 (87 AD, 175 mild cognitive impairment) |MCI hypomethylated at 1 DMR |Reverts to hypermethylation as AD progresses                  | 33298155|Clin Epigenetics |
+|First-episode schizophrenia     |whole blood       |469 cases vs 476 controls                                       |4277                        |not confounded by long-term medication or disease progression | 33279932|Mol Psychiatry   |
+|PTSD                            |whole blood       |1896                                                            |4 sites in AHRR             |associations stronger in non-smokers                          | 33235198|Nat Commun       |
+|Panic disorder                  |whole blood       |133 cases vs 118 controls                                       |61                          |                                                            | 33208194|Clin Epigenetics |
+
+]
+
+---
+
+## EWAS of exposure
+
+.striped[
+
+|variable         |tissue                      |n                                |assocs   |notes                                        |     pmid|journal              |
+|:----------------|:---------------------------|:--------------------------------|:--------|:--------------------------------------------|--------:|:--------------------|
+|Alcohol intake   |whole blood                 |1004 (avg age 23)                |24       |4 replicated in discordant twin analyses     | 33277923|Alcohol Clin Exp Res |
+|Childhood hunger |whole blood in older adults |2221                             |0        |hunger associated with CVD and depression    | 33215951|Epigenomics          |
+|Vegans           |blood (buffy coat)          |62 vegans vs 142 non-vegetarians |18 genes |Average methylation calculated for each gene | 33266012|Nutrients            |
+|HIV              |whole blood                 |397                              |49       |                                           | 33232214|Epigenomics          |
+
+
+]
+
+---
+
+## EWAS of phenotypes
+
+.striped[
+
+|variable                           |tissue               |n                        |assocs            |notes                                                                                   |     pmid|journal             |
+|:----------------------------------|:--------------------|:------------------------|:-----------------|:---------------------------------------------------------------------------------------|--------:|:-------------------|
+|Lactobacilli (L-type) microbiome   |cervicovaginal smear |161 L-type vs 150 O-type |173245            |AUC = 0.84 in replication data                                                          | 33228781|Clin Epigenetics    |
+|Metabolic syndrome and traits      |whole blood          |1187                     |33 (12 with MetS) |5 replicated                                                                            | 33239708|Sci Rep             |
+|Clinical/complete asthma remission |whole blood          |72                       |7/129             |1 of 7 and 8 of 129 replicated in nasal epithelium; 2 replicated in independent cohorts | 33303027|Clin Transl Allergy |
+]
+
+---
+
+## Predicting colorectal cancer survival
+
+> Gào X, Zhang Y, Boakye D, Li X, Chang-Claude J, Hoffmeister M, Brenner H. *Whole blood DNA methylation aging markers predict colorectal cancer survival: a prospective cohort study.* Clin Epigenetics. 2020 Nov 30;12(1):184.
+
+- n=2206 colorectal cancer patients
+- DNAm aging in blood
+- 6.2-year survival.
+
+--
+
+.box[
+After adjusting for age, sex and stage:
+
+| Method | Adjusted HR (95% CI) |
+|:---------------|:-----------------|
+|AgeAccelHorvath|  1.17 (0.99, 1.38)|
+|AgeAccelHannum|   1.12 (0.94, 1.33)|
+|DNAmMRscore|      1.66 (1.32, 2.09)|
+|AgeAccelPheno|    1.35 (1.14, 1.59)|
+|AgeAccelGrim|     1.65 (1.37, 2.00)|
+]
+
+
+---
+
+## X chromosome dosage
+
+Human female cells typically have two copies of the X chromosome with one copy mostly silenced. As a result, X chromosome expression levels are quite similar between females and males, who only have one copy of X.
+
+An exception is the female primordial germ cells and preimplantation embryos where *both* copies of the X chromosome. 
+
+**Question:** What kind of total gene expression levels on X do we observe in these cells?
+
+--
+
+&lt;hr&gt;
+
+**Answer:** The expression is dampened on each copy to match single chromosome levels.
+
+> Chitiashvili, T., Dror, I., Kim, R. et al. *Female human primordial germ cells display X-chromosome dosage compensation despite the absence of X-inactivation.* Nat Cell Biol 22, 1436–1446 (2020).
+
+---
+
+## Rare genetic variation and transcription factor binding sites
+
+Rare genetic variants inside transcription factor binding sites:
+1. Reduce transcription factor binding to the DNA
+2. Have large effects on methylation of nearby CpG sites (often *oultiers*)
+
+Does the changed transcription factor binding cause the change in methylation _or_ is the opposite?
+
+--
+
+&lt;hr&gt;
+
+.ii[
+**Answer:** The reduced binding causes the change in methylation because variants at more conserved positions have larger effects on methylation.
+
+> Martin-Trujillo A, Patel N, Richter F, et al. *Rare genetic variation at transcription factor binding sites modulates local DNA methylation profiles*. PLoS Genet. 2020;16(11):e1009189. 
+]
+.ii[
+&lt;img src="pgen.1009189.g003.jpg" width="90%"&gt;
+]
+
+---
+
+## Prediction pitfall 
+
+> Schreiber J, Singh R, Bilmes J, Noble WS. *A pitfall for machine learning methods aiming to predict across cell types.* Genome Biol. 2020;21(1):282. 
+
+**Aim:** Use one omic to predict/impute another (e.g. DNA methylation to predict gene expression).
+
+**Question:** Why might you want to not only train and test on different data but also on different genomic regions?
+
+--
+
+&lt;img src="prediction.png" width="90%"&gt;
+
+
+---
+
+## Probe reliability
+
+We typically remove/flag probes the cross-hybridize or coincide with comment genetic variants. But we don't do the same for unreliable probes.  Why not?
+
+.box[
+"**Probes that were reliably measured** were more heritable and showed consistent associations with environmental exposures, gene expression, and greater cross-tissue concordance."
+
+"**Unreliable probes** were less replicable and generated an unknown volume of false negatives."
+
+> Sugden et al. *Patterns of Reliability: Assessing the Reproducibility and Integrity of DNA Methylation Measurement*. Patterns (N Y). 2020 Apr 23;1(2):100014. 
+]
+
+Note: Naeem et al. (https://pubmed.ncbi.nlm.nih.gov/24447442/) do identify 
+probes that do not match whole genome bisulfite methylation levels.
+
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script src="slideshow.js"></script>
+  </body>
+</html>      
+ 
