@@ -20,13 +20,17 @@ presentation are ignored (saved in "data/ignore.txt").
 
 Run the following from the command line:
 
+  ```
   Rscript --vanilla scripts/generate-candidates.r
+  ```
 
 By default, the script will look back 30 days for new papers
 and save them to 'candidates.csv'.
 
 These defaults can be changed, e.g.
+  ```
   Rscript --vanilla scripts/generate-candidates.r 60 jc.csv
+  ```
 
 *Once you have selected papers to present, add their PMIDs to "data/presented.txt".*
 
