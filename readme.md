@@ -1,4 +1,4 @@
-## IEU epigenetics journal club
+## Epigenetics journal club
 
 The IEU epigenetics journal club meets 1-2 Mondays per month.
 Each meeting relevant papers published since the last meeting are

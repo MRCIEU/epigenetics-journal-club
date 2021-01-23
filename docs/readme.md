@@ -1,4 +1,4 @@
-## IEU epigenetics journal club presentations
+## Epigenetics journal club presentations
 
 * [2021-01-11](presentations/20210111/slides.html)
 * [2020-12-14](presentations/20201214/slides.html)
@@ -42,5 +42,5 @@
 * 2019-04-01 [(pptx)](presentations/20190401-journal-club.pptx)
 * 2019-03-26 [(pptx)](presentations/20190326-journal-club.pptx)
 * 2019-03-12 [(pptx)](presentations/20190312-journal-club.pptx) 
-* [journal club notices to March 2019](presentations/journal-club-archive-to-20190326.html)
-    [docx](presentations/journal-club-archive-to-20190326.docx) 
+* [journal club notices to March 2019](presentations/journal-club-archive.htm)
+    [(docx)](presentations/journal-club-archive.docx) 
