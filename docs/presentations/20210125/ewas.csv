@@ -1,0 +1,13 @@
+pmid,journal,variable,tissue,n,cohort,assocs,notes
+33468710,Aging (Albany NY),age,lung,fetal (120); adult (275),Adult Lung Tissue study,244,21 age*sex and 11 age*pack years in adult lung
+33450751,Hum Mol Genet,age trajectories from birth to 17,blood,2348,Generation R and ALSPAC,50% of 485K,non-linear change at 11%
+33414500,Mol Psychiatry,prenatal anxiety,cord blood,7243,PACE study of 12 cohorts,null,21 associations observed in individual studies
+33431374,Diabetes,dietary advice for obese pregnant women,offspring cord blood,208,TOP study,379,dietary advice offspring had higher lean mass
+33436068,Clin Epigenetics,rapid infant weight gain,blood,125 age 7; 96 adolescents,ALSPAC,2;0,1 site replicated
+33448462,Birth,blood pressure in pregnancy,saliva 3-5 years after pregnancy,179 mothers,InterGEN,null,high blood pressure in pregnancy was associated with higher blood pressure 3-5 years later
+33420481,Mol Psychiatry,aggression,peripheral blood,14434 age 7-68 years,PACE study of 18 cohorts,13,
+,,,cord blood,2425,5 cohorts,null,effect estimates for 13 sites correlated at R=0.74
+33443234,Thorax,airflow obstruction ,blood,161 people with HIV,,4676,enriched in chronic viral infections pathways
+33414392,Transl Psychiatry,bipolar personality disorder,blood,96 vs 44 controls,,6,5 on the X chromosome; 2 replicated
+,,BPD with trauma,blood,49 vs 47 no trauma,,null,
+33413638,Clin Epigenetics,226 NMR metabolites,blood,1662,KORA F4,274 (24 sites) ,161 replicated in LOLIPOP/NFBC1966/YFS (n=3752)

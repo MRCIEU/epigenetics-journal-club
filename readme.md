@@ -32,6 +32,7 @@ These defaults can be changed, e.g.
   Rscript --vanilla scripts/generate-candidates.r 60 jc.csv
   ```
 
-*Once you have selected papers to present, add their PMIDs to "data/presented.txt".*
+*Once you have selected papers to present, add their PMIDs to "data/presented.txt"
+and add the list of papers to 'data/papers.csv'.*
 
 
