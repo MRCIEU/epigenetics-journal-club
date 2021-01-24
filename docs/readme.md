@@ -1,5 +1,6 @@
 ## Epigenetics journal club presentations
 
+* [2021-01-25](presentations/20210125/slides.html)
 * [2021-01-11](presentations/20210111/slides.html)
 * [2020-12-14](presentations/20201214/slides.html)
 * [2020-11-23](presentations/20201123/slides.html)
