@@ -1,5 +1,5 @@
 ## Epigenetics journal club presentations
-for more information contact Matthew Suderman (matthew.suderman@bristol.ac.uk)
+For more information contact [Matthew Suderman](matthew.suderman@bristol.ac.uk).
 
 * **2021** html [01-25](presentations/20210125/slides.html)
 [01-11](presentations/20210111/slides.html)
