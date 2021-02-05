@@ -44,5 +44,5 @@ powerpoint
 [04-01](presentations/20190401-journal-club.pptx)
 [03-26](presentations/20190326-journal-club.pptx)
 [03-12](presentations/20190312-journal-club.pptx) 
-* [journal club notices January 2015 - March 2019](presentations/journal-club-archive.html)
+* **2015-2019**[journal club notices](presentations/journal-club-archive.html)
     [(docx)](presentations/journal-club-archive.docx) 
