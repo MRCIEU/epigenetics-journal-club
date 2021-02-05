@@ -1,11 +1,11 @@
 ## Epigenetics journal club presentations
 
-* **2021** [01-25](presentations/20210125/slides.html)
+* **2021** html [01-25](presentations/20210125/slides.html)
 [01-11](presentations/20210111/slides.html)
 [12-14](presentations/20201214/slides.html)
 [11-23](presentations/20201123/slides.html)
 [10-26](presentations/20201026/slides.html)
-pptx
+powerpoint
 [09-14](presentations/20200914-journal-club.pptx)
 [09-07](presentations/20200907-journal-club.pptx)
 [08-03](presentations/20200803-journal-club.pptx)
@@ -19,7 +19,7 @@ pptx
 [02-10](presentations/20200210-journal-club.pptx)
 [01-27](presentations/20200127-journal-club.pptx)
 [01-13](presentations/20200113-journal-club.pptx)
-* **2019** pptx [12-16](presentations/20191216-journal-club.pptx)
+* **2019** powerpoint [12-16](presentations/20191216-journal-club.pptx)
 [11-25](presentations/20191125-journal-club.pptx)
 [11-11](presentations/20191111-journal-club.pptx)
 [11-04](presentations/20191104-journal-club.pptx)
