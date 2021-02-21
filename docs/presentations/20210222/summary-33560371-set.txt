@@ -1,0 +1,39 @@
+1: Sabedot T, Malta T, Snyder J, Nelson K, Wells M, deCarvalho A, Mukherjee A,
+Chitale D, Mosella M, Sokolov A, Asmaro K, Robin A, Rosenblum M, Mikkelsen T,
+Rock J, Poisson L, Lee I, Walbert T, Kalkanis S, Iavarone A, Castro AV,
+Noushmehr H. A serum-based DNA methylation assay provides accurate detection of
+glioma. Neuro Oncol. 2021 Feb 9:noab023. doi: 10.1093/neuonc/noab023. Epub ahead
+of print. PMID: 33560371.
+
+2: Jansen R, Han LK, Verhoeven JE, Aberg KA, van den Oord EC, Milaneschi Y,
+Penninx BW. An integrative study of five biological clocks in somatic and mental
+health. Elife. 2021 Feb 9;10:e59479. doi: 10.7554/eLife.59479. PMID: 33558008;
+PMCID: PMC7872513.
+
+3: Song G, Wang G, Luo X, Cheng Y, Song Q, Wan J, Moore C, Song H, Jin P, Qian
+J, Zhu H. An all-to-all approach to the identification of sequence-specific
+readers for epigenetic DNA modifications on cytosine. Nat Commun. 2021 Feb
+4;12(1):795. doi: 10.1038/s41467-021-20950-w. PMID: 33542217; PMCID: PMC7862700.
+
+4: Boix CA, James BT, Park YP, Meuleman W, Kellis M. Regulatory genomic
+circuitry of human disease loci by integrative epigenomics. Nature. 2021
+Feb;590(7845):300-307. doi: 10.1038/s41586-020-03145-z. Epub 2021 Feb 3. PMID:
+33536621.
+
+5: Sroka MW, Vakoc CR. An epigenetic tipping point in cancer comes under the
+microscope. Nature. 2021 Feb;590(7846):399-400. doi: 10.1038/d41586-021-00002-5.
+PMID: 33536596.
+
+6: Kia DA, Zhang D, Guelfi S, Manzoni C, Hubbard L, Reynolds RH, Botía J, Ryten
+M, Ferrari R, Lewis PA, Williams N, Trabzuni D, Hardy J, Wood NW; United Kingdom
+Brain Expression Consortium (UKBEC) and the International Parkinson’s Disease
+Genomics Consortium (IPDGC). Identification of Candidate Parkinson Disease Genes
+by Integrating Genome-Wide Association Study, Expression, and Epigenetic Data
+Sets. JAMA Neurol. 2021 Feb 1:e205257. doi: 10.1001/jamaneurol.2020.5257. Epub
+ahead of print. PMID: 33523105; PMCID: PMC7851759.
+
+7: Yan J, Qiu Y, Ribeiro Dos Santos AM, Yin Y, Li YE, Vinckier N, Nariai N,
+Benaglio P, Raman A, Li X, Fan S, Chiou J, Chen F, Frazer KA, Gaulton KJ, Sander
+M, Taipale J, Ren B. Systematic analysis of binding of transcription factors to
+noncoding variants. Nature. 2021 Jan 27. doi: 10.1038/s41586-021-03211-0. Epub
+ahead of print. PMID: 33505025.

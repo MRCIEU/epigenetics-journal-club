@@ -1,0 +1,1095 @@
+PMID- 33560371
+OWN - NLM
+STAT- Publisher
+LR  - 20210209
+IS  - 1523-5866 (Electronic)
+IS  - 1522-8517 (Linking)
+DP  - 2021 Feb 9
+TI  - A serum-based DNA methylation assay provides accurate detection of glioma.
+LID - noab023 [pii]
+LID - 10.1093/neuonc/noab023 [doi]
+AB  - BACKGROUND: The detection of somatic mutations in cell-free DNA (cfDNA) from liquid 
+      biopsy has emerged as a non-invasive tool to monitor the follow-up of cancer 
+      patients. However, the significance of cfDNA clinical utility remains uncertain in 
+      patients with brain tumors, primarily because of the limited sensitivity cfDNA has 
+      to detect real tumor-specific somatic mutations. This unresolved challenge has 
+      prevented accurate follow-up of glioma patients with non-invasive approaches. 
+      METHODS: Genome-wide DNA methylation profiling of tumor tissue and serum cell-free 
+      DNA of glioma patients. RESULTS: Here, we developed a non-invasive approach to 
+      profile the DNA methylation status in the serum of patients with gliomas and 
+      identified a cfDNA-derived methylation signature that is associated with the 
+      presence of gliomas and related immune features. By testing the signature in an 
+      independent discovery and validation cohorts, we developed and verified a score 
+      metric (the "glioma epigenetic liquid biopsy score" or GeLB) that optimally 
+      distinguished patients with or without glioma (sensitivity: 100%, specificity: 
+      97.78%). Furthermore, we found that changes in GeLB score reflected 
+      clinicopathological changes during surveillance (e.g., progression, 
+      pseudoprogression or response to standard or experimental treatment). CONCLUSIONS: 
+      Our results suggest that the GeLB score can be used as a complementary approach to 
+      diagnose and follow up patients with glioma.
+CI  - © The Author(s) 2021. Published by Oxford University Press on behalf of the Society 
+      for Neuro-Oncology. All rights reserved. For permissions, please e-mail: 
+      journals.permissions@oup.com.
+FAU - Sabedot, Thais
+AU  - Sabedot T
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+AD  - Omics Laboratory, Henry Ford Health System, Detroit, MI, USA.
+FAU - Malta, Tathiane
+AU  - Malta T
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+AD  - Omics Laboratory, Henry Ford Health System, Detroit, MI, USA.
+FAU - Snyder, James
+AU  - Snyder J
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+AD  - Omics Laboratory, Henry Ford Health System, Detroit, MI, USA.
+AD  - Department of Neuro Oncology, Henry Ford Health System, Detroit, MI, USA.
+FAU - Nelson, Kevin
+AU  - Nelson K
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+FAU - Wells, Michael
+AU  - Wells M
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+AD  - Omics Laboratory, Henry Ford Health System, Detroit, MI, USA.
+FAU - deCarvalho, Ana
+AU  - deCarvalho A
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+FAU - Mukherjee, Abir
+AU  - Mukherjee A
+AD  - Department of Pathology, Henry Ford Health System, Detroit, MI, USA.
+FAU - Chitale, Dhan
+AU  - Chitale D
+AD  - Department of Pathology, Henry Ford Health System, Detroit, MI, USA.
+FAU - Mosella, Maritza
+AU  - Mosella M
+AD  - Omics Laboratory, Henry Ford Health System, Detroit, MI, USA.
+FAU - Sokolov, Artem
+AU  - Sokolov A
+AD  - Laboratory of Systems Pharmacology, Harvard Medical School, Boston, MA, USA.
+FAU - Asmaro, Karam
+AU  - Asmaro K
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+AD  - Omics Laboratory, Henry Ford Health System, Detroit, MI, USA.
+FAU - Robin, Adam
+AU  - Robin A
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+FAU - Rosenblum, Michael
+AU  - Rosenblum M
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+FAU - Mikkelsen, Tom
+AU  - Mikkelsen T
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+FAU - Rock, Jack
+AU  - Rock J
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+FAU - Poisson, Laila
+AU  - Poisson L
+AD  - Department of Biostatistics, Henry Ford Health System, Detroit, MI, USA.
+FAU - Lee, Ian
+AU  - Lee I
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+FAU - Walbert, Tobias
+AU  - Walbert T
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+AD  - Department of Neuro Oncology, Henry Ford Health System, Detroit, MI, USA.
+FAU - Kalkanis, Steven
+AU  - Kalkanis S
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+FAU - Iavarone, Antonio
+AU  - Iavarone A
+AD  - Institute for Cancer Genetics, Department of Pathology and Cell Biology, Department 
+      of Neurology, Columbia University Medical Center, New York, USA.
+FAU - Castro, Ana Valeria
+AU  - Castro AV
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+AD  - Omics Laboratory, Henry Ford Health System, Detroit, MI, USA.
+FAU - Noushmehr, Houtan
+AU  - Noushmehr H
+AD  - Department of Neurosurgery, Hermelin Brain Tumor Center, Henry Ford Health System, 
+      Detroit, MI, USA.
+AD  - Omics Laboratory, Henry Ford Health System, Detroit, MI, USA.
+LA  - eng
+PT  - Journal Article
+DEP - 20210209
+PL  - England
+TA  - Neuro Oncol
+JT  - Neuro-oncology
+JID - 100887420
+SB  - IM
+OTO - NOTNLM
+OT  - cell-free DNA
+OT  - epigenetics
+OT  - glioma
+OT  - pseudoprogression
+OT  - serum
+EDAT- 2021/02/10 06:00
+MHDA- 2021/02/10 06:00
+CRDT- 2021/02/09 12:10
+PHST- 2019/04/29 00:00 [received]
+PHST- 2021/02/09 12:10 [entrez]
+PHST- 2021/02/10 06:00 [pubmed]
+PHST- 2021/02/10 06:00 [medline]
+AID - 6131768 [pii]
+AID - 10.1093/neuonc/noab023 [doi]
+PST - aheadofprint
+SO  - Neuro Oncol. 2021 Feb 9:noab023. doi: 10.1093/neuonc/noab023.
+
+PMID- 33558008
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20210212
+IS  - 2050-084X (Electronic)
+IS  - 2050-084X (Linking)
+VI  - 10
+DP  - 2021 Feb 9
+TI  - An integrative study of five biological clocks in somatic and mental health.
+LID - 10.7554/eLife.59479 [doi]
+LID - e59479
+AB  - Biological clocks have been developed at different molecular levels and were found 
+      to be more advanced in the presence of somatic illness and mental disorders. 
+      However, it is unclear whether different biological clocks reflect similar aging 
+      processes and determinants. In ~3000 subjects, we examined whether five biological 
+      clocks (telomere length, epigenetic, transcriptomic, proteomic, and metabolomic 
+      clocks) were interrelated and associated to somatic and mental health determinants. 
+      Correlations between biological aging indicators were small (all r < 0.2), 
+      indicating little overlap. The most consistent associations of advanced biological 
+      aging were found for male sex, higher body mass index (BMI), metabolic syndrome, 
+      smoking, and depression. As compared to the individual clocks, a composite index of 
+      all five clocks showed most pronounced associations with health determinants. The 
+      large effect sizes of the composite index and the low correlation between biological 
+      aging indicators suggest that one's biological age is best reflected by combining 
+      aging measures from multiple cellular levels.
+CI  - © 2021, Jansen et al.
+FAU - Jansen, Rick
+AU  - Jansen R
+AUID- ORCID: 0000-0002-3333-6737
+AD  - Department of Psychiatry, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam 
+      Public Health Research Institute and Amsterdam Neuroscience, Amsterdam, Netherlands.
+FAU - Han, Laura Km
+AU  - Han LK
+AUID- ORCID: 0000-0001-9647-3723
+AD  - Department of Psychiatry, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam 
+      Public Health Research Institute and Amsterdam Neuroscience, Amsterdam, Netherlands.
+FAU - Verhoeven, Josine E
+AU  - Verhoeven JE
+AD  - Department of Psychiatry, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam 
+      Public Health Research Institute and Amsterdam Neuroscience, Amsterdam, Netherlands.
+FAU - Aberg, Karolina A
+AU  - Aberg KA
+AD  - Center for Biomarker Research and Precision Medicine, Virginia Commonwealth 
+      University, Richmond, United States.
+FAU - van den Oord, Edwin Cgj
+AU  - van den Oord EC
+AD  - Center for Biomarker Research and Precision Medicine, Virginia Commonwealth 
+      University, Richmond, United States.
+FAU - Milaneschi, Yuri
+AU  - Milaneschi Y
+AD  - Department of Psychiatry, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam 
+      Public Health Research Institute and Amsterdam Neuroscience, Amsterdam, Netherlands.
+FAU - Penninx, Brenda Wjh
+AU  - Penninx BW
+AD  - Department of Psychiatry, Amsterdam UMC, Vrije Universiteit Amsterdam, Amsterdam 
+      Public Health Research Institute and Amsterdam Neuroscience, Amsterdam, Netherlands.
+LA  - eng
+SI  - dbGaP/phs000486.v1.p1
+PT  - Journal Article
+DEP - 20210209
+TA  - Elife
+JT  - eLife
+JID - 101579614
+SB  - IM
+CIN - doi: 10.7554/eLife.66223
+PMC - PMC7872513
+OTO - NOTNLM
+OT  - biological aging
+OT  - cell biology
+OT  - epigenetics
+OT  - genetics
+OT  - genomics
+OT  - human
+OT  - metabolomics
+OT  - proteomics
+OT  - telomere
+OT  - transcriptomics
+COIS- RJ, LH, JV, KA, Ev, YM No competing interests declared, BP has received research 
+      funding (not related to the current paper) from Boehringer Ingelheim and Jansen 
+      Research.
+EDAT- 2021/02/10 06:00
+MHDA- 2021/02/10 06:00
+CRDT- 2021/02/09 05:55
+PHST- 2020/05/29 00:00 [received]
+PHST- 2020/12/14 00:00 [accepted]
+PHST- 2021/02/09 05:55 [entrez]
+PHST- 2021/02/10 06:00 [pubmed]
+PHST- 2021/02/10 06:00 [medline]
+AID - 59479 [pii]
+AID - 10.7554/eLife.59479 [doi]
+PST - epublish
+SO  - Elife. 2021 Feb 9;10:e59479. doi: 10.7554/eLife.59479.
+
+PMID- 33542217
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210219
+LR  - 20210219
+IS  - 2041-1723 (Electronic)
+IS  - 2041-1723 (Linking)
+VI  - 12
+IP  - 1
+DP  - 2021 Feb 4
+TI  - An all-to-all approach to the identification of sequence-specific readers for 
+      epigenetic DNA modifications on cytosine.
+PG  - 795
+LID - 10.1038/s41467-021-20950-w [doi]
+LID - 795
+AB  - Epigenetic modifications of DNA play important roles in many biological processes. 
+      Identifying readers of these epigenetic marks is a critical step towards 
+      understanding the underlying mechanisms. Here, we present an all-to-all approach, 
+      dubbed digital affinity profiling via proximity ligation (DAPPL), to simultaneously 
+      profile human TF-DNA interactions using mixtures of random DNA libraries carrying 
+      different epigenetic modifications (i.e., 5-methylcytosine, 5-hydroxymethylcytosine, 
+      5-formylcytosine, and 5-carboxylcytosine) on CpG dinucleotides. Many proteins that 
+      recognize consensus sequences carrying these modifications in symmetric and/or 
+      hemi-modified forms are identified. We further demonstrate that the modifications in 
+      different sequence contexts could either enhance or suppress TF binding activity. 
+      Moreover, many modifications can affect TF binding specificity. Furthermore, 
+      symmetric modifications show a stronger effect in either enhancing or suppressing 
+      TF-DNA interactions than hemi-modifications. Finally, in vivo evidence suggests that 
+      USF1 and USF2 might regulate transcription via hydroxymethylcytosine-binding 
+      activity in weak enhancers in human embryonic stem cells.
+FAU - Song, Guang
+AU  - Song G
+AUID- ORCID: 0000-0002-7630-716X
+AD  - Department of Pharmacology and Molecular Sciences, Johns Hopkins University School 
+      of Medicine, Baltimore, MD, USA.
+FAU - Wang, Guohua
+AU  - Wang G
+AUID- ORCID: 0000-0001-7381-2374
+AD  - School of Computer Science and Technology, Harbin Institute of Technology, Harbin, 
+      Heilongjiang, China.
+FAU - Luo, Ximei
+AU  - Luo X
+AUID- ORCID: 0000-0003-2956-6799
+AD  - School of Computer Science and Technology, Harbin Institute of Technology, Harbin, 
+      Heilongjiang, China.
+AD  - Department of Ophthalmology, Johns Hopkins University School of Medicine, Baltimore, 
+      MD, USA.
+FAU - Cheng, Ying
+AU  - Cheng Y
+AD  - Department of Human Genetics, Emory University School of Medicine, Atlanta, GA, USA.
+AD  - Institute of Biomedical Research, Yunnan University, Kunming, Yunnan, China.
+FAU - Song, Qifeng
+AU  - Song Q
+AD  - Department of Pharmacology and Molecular Sciences, Johns Hopkins University School 
+      of Medicine, Baltimore, MD, USA.
+FAU - Wan, Jun
+AU  - Wan J
+AUID- ORCID: 0000-0001-9286-6562
+AD  - Department of Ophthalmology, Johns Hopkins University School of Medicine, Baltimore, 
+      MD, USA.
+FAU - Moore, Cedric
+AU  - Moore C
+AD  - Department of Pharmacology and Molecular Sciences, Johns Hopkins University School 
+      of Medicine, Baltimore, MD, USA.
+FAU - Song, Hongjun
+AU  - Song H
+AUID- ORCID: 0000-0002-8720-5310
+AD  - Department of Neuroscience and Mahoney Institute for Neurosciences, University of 
+      Pennsylvania, Philadelphia, PA, USA.
+FAU - Jin, Peng
+AU  - Jin P
+AUID- ORCID: 0000-0001-6137-6659
+AD  - Department of Human Genetics, Emory University School of Medicine, Atlanta, GA, USA.
+FAU - Qian, Jiang
+AU  - Qian J
+AUID- ORCID: 0000-0002-0476-3596
+AD  - Department of Ophthalmology, Johns Hopkins University School of Medicine, Baltimore, 
+      MD, USA. jiang.qian@jhmi.edu.
+FAU - Zhu, Heng
+AU  - Zhu H
+AUID- ORCID: 0000-0002-8426-2889
+AD  - Department of Pharmacology and Molecular Sciences, Johns Hopkins University School 
+      of Medicine, Baltimore, MD, USA. hzhu4@jhmi.edu.
+LA  - eng
+GR  - P01 NS097206/NS/NINDS NIH HHS/United States
+GR  - R01 AG061852/AG/NIA NIH HHS/United States
+GR  - R01 EY029548/EY/NEI NIH HHS/United States
+GR  - R35 NS116843/NS/NINDS NIH HHS/United States
+GR  - R24 AA025017/AA/NIAAA NIH HHS/United States
+GR  - R01 GM111514/GM/NIGMS NIH HHS/United States
+GR  - R01 EY024580/EY/NEI NIH HHS/United States
+GR  - R01 MH122451/MH/NIMH NIH HHS/United States
+GR  - U01 CA200469/CA/NCI NIH HHS/United States
+GR  - R01 HL149961/HL/NHLBI NIH HHS/United States
+GR  - T32 GM080189/GM/NIGMS NIH HHS/United States
+GR  - R35 NS111602/NS/NINDS NIH HHS/United States
+GR  - R01 NS051630/NS/NINDS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20210204
+TA  - Nat Commun
+JT  - Nature communications
+JID - 101528555
+RN  - 0 (Recombinant Proteins)
+RN  - 0 (USF1 protein, human)
+RN  - 0 (USF2 protein, human)
+RN  - 0 (Upstream Stimulatory Factors)
+RN  - 1123-95-1 (5-hydroxymethylcytosine)
+RN  - 6R795CQT4H (5-Methylcytosine)
+RN  - 9007-49-2 (DNA)
+SB  - IM
+MH  - 5-Methylcytosine/*analogs & derivatives/metabolism
+MH  - Cell Line
+MH  - CpG Islands/genetics
+MH  - DNA/genetics/*metabolism
+MH  - Enhancer Elements, Genetic
+MH  - Epigenesis, Genetic
+MH  - Epigenomics/*methods
+MH  - Gene Library
+MH  - Human Embryonic Stem Cells
+MH  - Humans
+MH  - Recombinant Proteins/genetics/isolation & purification/metabolism
+MH  - Upstream Stimulatory Factors/genetics/isolation & purification/metabolism
+PMC - PMC7862700
+COIS- The authors declare no competing interests.
+EDAT- 2021/02/06 06:00
+MHDA- 2021/02/20 06:00
+CRDT- 2021/02/05 05:49
+PHST- 2020/07/15 00:00 [received]
+PHST- 2020/12/14 00:00 [accepted]
+PHST- 2021/02/05 05:49 [entrez]
+PHST- 2021/02/06 06:00 [pubmed]
+PHST- 2021/02/20 06:00 [medline]
+AID - 10.1038/s41467-021-20950-w [pii]
+AID - 20950 [pii]
+AID - 10.1038/s41467-021-20950-w [doi]
+PST - epublish
+SO  - Nat Commun. 2021 Feb 4;12(1):795. doi: 10.1038/s41467-021-20950-w.
+
+PMID- 33536621
+OWN - NLM
+STAT- In-Process
+LR  - 20210212
+IS  - 1476-4687 (Electronic)
+IS  - 0028-0836 (Linking)
+VI  - 590
+IP  - 7845
+DP  - 2021 Feb
+TI  - Regulatory genomic circuitry of human disease loci by integrative epigenomics.
+PG  - 300-307
+LID - 10.1038/s41586-020-03145-z [doi]
+AB  - Annotating the molecular basis of human disease remains an unsolved challenge, as 
+      93% of disease loci are non-coding and gene-regulatory annotations are highly 
+      incomplete(1-3). Here we present EpiMap, a compendium comprising 10,000 epigenomic 
+      maps across 800 samples, which we used to define chromatin states, high-resolution 
+      enhancers, enhancer modules, upstream regulators and downstream target genes. We 
+      used this resource to annotate 30,000 genetic loci that were associated with 
+      540 traits(4), predicting trait-relevant tissues, putative causal nucleotide 
+      variants in enriched tissue enhancers and candidate tissue-specific target genes for 
+      each. We partitioned multifactorial traits into tissue-specific contributing factors 
+      with distinct functional enrichments and disease comorbidity patterns, and revealed 
+      both single-factor monotropic and multifactor pleiotropic loci. Top-scoring loci 
+      frequently had multiple predicted driver variants, converging through multiple 
+      enhancers with a common target gene, multiple genes in common tissues, or multiple 
+      genes and multiple tissues, indicating extensive pleiotropy. Our results demonstrate 
+      the importance of dense, rich, high-resolution epigenomic annotations for the 
+      investigation of complex traits.
+FAU - Boix, Carles A
+AU  - Boix CA
+AUID- ORCID: 0000-0001-9212-856X
+AD  - Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of 
+      Technology, Cambridge, MA, USA.
+AD  - Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+AD  - Computational and Systems Biology Program, Massachusetts Institute of Technology, 
+      Cambridge, MA, USA.
+FAU - James, Benjamin T
+AU  - James BT
+AUID- ORCID: 0000-0002-6228-055X
+AD  - Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of 
+      Technology, Cambridge, MA, USA.
+AD  - Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+FAU - Park, Yongjin P
+AU  - Park YP
+AD  - Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of 
+      Technology, Cambridge, MA, USA.
+AD  - Broad Institute of MIT and Harvard, Cambridge, MA, USA.
+AD  - Department of Pathology and Laboratory Medicine, University of British Columbia, 
+      Vancouver, British Columbia, Canada.
+FAU - Meuleman, Wouter
+AU  - Meuleman W
+AUID- ORCID: 0000-0002-1196-5401
+AD  - Altius Institute for Biomedical Sciences, Seattle, WA, USA.
+FAU - Kellis, Manolis
+AU  - Kellis M
+AUID- ORCID: 0000-0001-7113-9630
+AD  - Computer Science and Artificial Intelligence Laboratory, Massachusetts Institute of 
+      Technology, Cambridge, MA, USA. manoli@mit.edu.
+AD  - Broad Institute of MIT and Harvard, Cambridge, MA, USA. manoli@mit.edu.
+LA  - eng
+GR  - HG008155/NH/NIH HHS/United States
+GR  - HG009446/NH/NIH HHS/United States
+GR  - HG009088/NH/NIH HHS/United States
+GR  - HG007234/NH/NIH HHS/United States
+GR  - HG007610/NH/NIH HHS/United States
+GR  - GM113708/NH/NIH HHS/United States
+GR  - MH109978/NH/NIH HHS/United States
+GR  - MH119509/NH/NIH HHS/United States
+GR  - AG058002/NH/NIH HHS/United States
+GR  - GM087237/NH/NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20210203
+PL  - England
+TA  - Nature
+JT  - Nature
+JID - 0410462
+SB  - IM
+EDAT- 2021/02/05 06:00
+MHDA- 2021/02/05 06:00
+CRDT- 2021/02/04 05:47
+PHST- 2019/10/30 00:00 [received]
+PHST- 2020/12/18 00:00 [accepted]
+PHST- 2021/02/05 06:00 [pubmed]
+PHST- 2021/02/05 06:00 [medline]
+PHST- 2021/02/04 05:47 [entrez]
+AID - 10.1038/s41586-020-03145-z [pii]
+AID - 10.1038/s41586-020-03145-z [doi]
+PST - ppublish
+SO  - Nature. 2021 Feb;590(7845):300-307. doi: 10.1038/s41586-020-03145-z. Epub 2021 Feb 
+      3.
+
+PMID- 33536596
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210219
+LR  - 20210219
+IS  - 1476-4687 (Electronic)
+IS  - 0028-0836 (Linking)
+VI  - 590
+IP  - 7846
+DP  - 2021 Feb
+TI  - An epigenetic tipping point in cancer comes under the microscope.
+PG  - 399-400
+LID - 10.1038/d41586-021-00002-5 [doi]
+FAU - Sroka, Martyna W
+AU  - Sroka MW
+FAU - Vakoc, Christopher R
+AU  - Vakoc CR
+LA  - eng
+PT  - Comment
+PT  - News
+PL  - England
+TA  - Nature
+JT  - Nature
+JID - 0410462
+RN  - 0 (Nucleosomes)
+RN  - EC 2.1.1.- (Methyltransferases)
+SB  - IM
+CON - Nature. 2021 Feb;590(7846):498-503. PMID: 33361816
+CON - Nature. 2021 Feb;590(7846):504-508. PMID: 33536620
+MH  - Epigenesis, Genetic/genetics
+MH  - Humans
+MH  - Methylation
+MH  - Methyltransferases
+MH  - *Neoplasms/genetics
+MH  - *Nucleosomes
+OTO - NOTNLM
+OT  - *Cancer
+OT  - *Epigenetics
+EDAT- 2021/02/05 06:00
+MHDA- 2021/02/20 06:00
+CRDT- 2021/02/04 05:47
+PHST- 2021/02/05 06:00 [pubmed]
+PHST- 2021/02/20 06:00 [medline]
+PHST- 2021/02/04 05:47 [entrez]
+AID - 10.1038/d41586-021-00002-5 [pii]
+AID - 10.1038/d41586-021-00002-5 [doi]
+PST - ppublish
+SO  - Nature. 2021 Feb;590(7846):399-400. doi: 10.1038/d41586-021-00002-5.
+
+PMID- 33523105
+OWN - NLM
+STAT- Publisher
+LR  - 20210212
+IS  - 2168-6157 (Electronic)
+IS  - 2168-6149 (Print)
+IS  - 2168-6149 (Linking)
+DP  - 2021 Feb 1
+TI  - Identification of Candidate Parkinson Disease Genes by Integrating Genome-Wide 
+      Association Study, Expression, and Epigenetic Data Sets.
+LID - 10.1001/jamaneurol.2020.5257 [doi]
+LID - e205257
+AB  - IMPORTANCE: Substantial genome-wide association study (GWAS) work in Parkinson 
+      disease (PD) has led to the discovery of an increasing number of loci shown reliably 
+      to be associated with increased risk of disease. Improved understanding of the 
+      underlying genes and mechanisms at these loci will be key to understanding the 
+      pathogenesis of PD. OBJECTIVE: To investigate what genes and genomic processes 
+      underlie the risk of sporadic PD. DESIGN AND SETTING: This genetic association study 
+      used the bioinformatic tools Coloc and transcriptome-wide association study (TWAS) 
+      to integrate PD case-control GWAS data published in 2017 with expression data (from 
+      Braineac, the Genotype-Tissue Expression [GTEx], and CommonMind) and methylation 
+      data (derived from UK Parkinson brain samples) to uncover putative gene expression 
+      and splicing mechanisms associated with PD GWAS signals. Candidate genes were 
+      further characterized using cell-type specificity, weighted gene coexpression 
+      networks, and weighted protein-protein interaction networks. MAIN OUTCOMES AND 
+      MEASURES: It was hypothesized a priori that some genes underlying PD loci would 
+      alter PD risk through changes to expression, splicing, or methylation. Candidate 
+      genes are presented whose change in expression, splicing, or methylation are 
+      associated with risk of PD as well as the functional pathways and cell types in 
+      which these genes have an important role. RESULTS: Gene-level analysis of expression 
+      revealed 5 genes (WDR6 [OMIM 606031], CD38 [OMIM 107270], GPNMB [OMIM 604368], RAB29 
+      [OMIM 603949], and TMEM163 [OMIM 618978]) that replicated using both Coloc and TWAS 
+      analyses in both the GTEx and Braineac expression data sets. A further 6 genes 
+      (ZRANB3 [OMIM 615655], PCGF3 [OMIM 617543], NEK1 [OMIM 604588], NUPL2 [NCBI 11097], 
+      GALC [OMIM 606890], and CTSB [OMIM 116810]) showed evidence of disease-associated 
+      splicing effects. Cell-type specificity analysis revealed that gene expression was 
+      overall more prevalent in glial cell types compared with neurons. The weighted gene 
+      coexpression performed on the GTEx data set showed that NUPL2 is a key gene in 3 
+      modules implicated in catabolic processes associated with protein ubiquitination and 
+      in the ubiquitin-dependent protein catabolic process in the nucleus accumbens, 
+      caudate, and putamen. TMEM163 and ZRANB3 were both important in modules in the 
+      frontal cortex and caudate, respectively, indicating regulation of signaling and 
+      cell communication. Protein interactor analysis and simulations using random 
+      networks demonstrated that the candidate genes interact significantly more with 
+      known mendelian PD and parkinsonism proteins than would be expected by chance. 
+      CONCLUSIONS AND RELEVANCE: Together, these results suggest that several candidate 
+      genes and pathways are associated with the findings observed in PD GWAS studies.
+FAU - Kia, Demis A
+AU  - Kia DA
+AD  - Department of Molecular Neuroscience, University College London Institute of 
+      Neurology, Queen Square, London, United Kingdom.
+FAU - Zhang, David
+AU  - Zhang D
+AD  - Department of Molecular Neuroscience, University College London Institute of 
+      Neurology, Queen Square, London, United Kingdom.
+FAU - Guelfi, Sebastian
+AU  - Guelfi S
+AD  - Department of Molecular Neuroscience, University College London Institute of 
+      Neurology, Queen Square, London, United Kingdom.
+FAU - Manzoni, Claudia
+AU  - Manzoni C
+AD  - Department of Pharmacology, School of Pharmacy, University College London, London, 
+      United Kingdom.
+FAU - Hubbard, Leon
+AU  - Hubbard L
+AD  - Division of Psychological Medicine and Clinical Neurosciences, School of Medicine, 
+      University of Cardiff, Cardiff, United Kingdom.
+FAU - Reynolds, Regina H
+AU  - Reynolds RH
+AD  - Department of Molecular Neuroscience, University College London Institute of 
+      Neurology, Queen Square, London, United Kingdom.
+FAU - Botía, Juan
+AU  - Botía J
+AD  - Departamento de Ingeniería de la Información y las Comunicaciones, Universidad de 
+      Murcia, Murcia, Spain.
+FAU - Ryten, Mina
+AU  - Ryten M
+AD  - Department of Molecular Neuroscience, University College London Institute of 
+      Neurology, Queen Square, London, United Kingdom.
+FAU - Ferrari, Raffaele
+AU  - Ferrari R
+AD  - Department of Molecular Neuroscience, University College London Institute of 
+      Neurology, Queen Square, London, United Kingdom.
+FAU - Lewis, Patrick A
+AU  - Lewis PA
+AD  - Department of Comparative Biomedical Sciences, The Royal Veterinary College, London, 
+      United Kingdom.
+AD  - School of Pharmacy, University of Reading, Reading, United Kingdom.
+FAU - Williams, Nigel
+AU  - Williams N
+AD  - Division of Psychological Medicine and Clinical Neurosciences, School of Medicine, 
+      University of Cardiff, Cardiff, United Kingdom.
+FAU - Trabzuni, Daniah
+AU  - Trabzuni D
+AD  - Department of Molecular Neuroscience, University College London Institute of 
+      Neurology, Queen Square, London, United Kingdom.
+AD  - Department of Genetics, King Faisal Specialist Hospital and Research Centre, Riyadh, 
+      Saudi Arabia.
+FAU - Hardy, John
+AU  - Hardy J
+AD  - Department of Neurodegenerative Disease and Reta Lila Weston Laboratories, 
+      University College London Dementia Research Institute, London, United Kingdom.
+FAU - Wood, Nicholas W
+AU  - Wood NW
+AD  - Department of Molecular Neuroscience, University College London Institute of 
+      Neurology, Queen Square, London, United Kingdom.
+CN  - United Kingdom Brain Expression Consortium (UKBEC) and the International Parkinson’s 
+      Disease Genomics Consortium (IPDGC)
+LA  - eng
+GR  - G-1309/PUK_/Parkinson's UK/United Kingdom
+GR  - G-1502/PUK_/Parkinson's UK/United Kingdom
+PT  - Journal Article
+DEP - 20210201
+TA  - JAMA Neurol
+JT  - JAMA neurology
+JID - 101589536
+SB  - AIM
+SB  - IM
+PMC - PMC7851759
+COIS- Conflict of Interest Disclosures: Dr Manzoni and Dr Lewis reported receiving grants 
+      from Medical Research Council (MRC) during the conduct of the study. Dr Williams 
+      reported receiving grants from Parkinson’s UK during the conduct of the study. Dr 
+      Trabzuni reported receiving personal fees from King Faisal Specialist Hospital 
+      during the conduct of the study; and grants from University College London outside 
+      the submitted work. No other disclosures were reported.
+FIR - Noyce, Alastair J
+IR  - Noyce AJ
+FIR - Kaiyrzhanov, Rauan
+IR  - Kaiyrzhanov R
+FIR - Middlehurst, Ben
+IR  - Middlehurst B
+FIR - Kia, Demis A
+IR  - Kia DA
+FIR - Tan, Manuela
+IR  - Tan M
+FIR - Houlden, Henry
+IR  - Houlden H
+FIR - Morris, Huw R
+IR  - Morris HR
+FIR - Plun-Favreau, Helene
+IR  - Plun-Favreau H
+FIR - Holmans, Peter
+IR  - Holmans P
+FIR - Hardy, John
+IR  - Hardy J
+FIR - Trabzuni, Daniah
+IR  - Trabzuni D
+FIR - Bras, Jose
+IR  - Bras J
+FIR - PhD, John Quinn
+IR  - PhD JQ
+FIR - Mok, Kin Y
+IR  - Mok KY
+FIR - Kinghorn, Kerri J
+IR  - Kinghorn KJ
+FIR - Billingsley, Kimberley
+IR  - Billingsley K
+FIR - Wood, Nicholas W
+IR  - Wood NW
+FIR - Lewis, Patrick
+IR  - Lewis P
+FIR - Schreglmann, Sebastian
+IR  - Schreglmann S
+FIR - Guerreiro, Rita
+IR  - Guerreiro R
+FIR - Lovering, Ruth
+IR  - Lovering R
+FIR - R'Bibo, Lea
+IR  - R'Bibo L
+FIR - Manzoni, Claudia
+IR  - Manzoni C
+FIR - Rizig, Mie
+IR  - Rizig M
+FIR - Ryten, Mina
+IR  - Ryten M
+FIR - Guelfi, Sebastian
+IR  - Guelfi S
+FIR - Escott-Price, Valentina
+IR  - Escott-Price V
+FIR - Chelban, Viorica
+IR  - Chelban V
+FIR - Foltynie, Thomas
+IR  - Foltynie T
+FIR - Williams, Nigel
+IR  - Williams N
+FIR - Brice, Alexis
+IR  - Brice A
+FIR - Danjou, Fabrice
+IR  - Danjou F
+FIR - Lesage, Suzanne
+IR  - Lesage S
+FIR - Corvol, Jean-Christophe
+IR  - Corvol JC
+FIR - Martinez, Maria
+IR  - Martinez M
+FIR - Schulte, Claudia
+IR  - Schulte C
+FIR - Brockmann, Kathrin
+IR  - Brockmann K
+FIR - Simón-Sánchez, Javier
+IR  - Simón-Sánchez J
+FIR - Heutink, Peter
+IR  - Heutink P
+FIR - Rizzu, Patrizia
+IR  - Rizzu P
+FIR - Sharma, Manu
+IR  - Sharma M
+FIR - Gasser, Thomas
+IR  - Gasser T
+FIR - Nicolas, Aude
+IR  - Nicolas A
+FIR - Cookson, Mark R
+IR  - Cookson MR
+FIR - Bandres-Ciga, Sara
+IR  - Bandres-Ciga S
+FIR - Blauwendraat, Cornelis
+IR  - Blauwendraat C
+FIR - Craig, David W
+IR  - Craig DW
+FIR - Faghri, Faraz
+IR  - Faghri F
+FIR - Gibbs, J Raphael
+IR  - Gibbs JR
+FIR - Hernandez, Dena G
+IR  - Hernandez DG
+FIR - Van Keuren-Jensen, Kendall
+IR  - Van Keuren-Jensen K
+FIR - Shulman, Joshua M
+IR  - Shulman JM
+FIR - Leonard, Hampton L
+IR  - Leonard HL
+FIR - Nalls, Mike A
+IR  - Nalls MA
+FIR - Robak, Laurie
+IR  - Robak L
+FIR - Lubbe, Steven
+IR  - Lubbe S
+FIR - Finkbeiner, Steven
+IR  - Finkbeiner S
+FIR - Mencacci, Niccolo E
+IR  - Mencacci NE
+FIR - Lungu, Codrin
+IR  - Lungu C
+FIR - Singleton, Andrew B
+IR  - Singleton AB
+FIR - Scholz, Sonja W
+IR  - Scholz SW
+FIR - Reed, Xylena
+IR  - Reed X
+FIR - Alcalay, Roy N
+IR  - Alcalay RN
+FIR - Gan-Or, Ziv
+IR  - Gan-Or Z
+FIR - Rouleau, Guy A
+IR  - Rouleau GA
+FIR - Krohn, Lynne
+IR  - Krohn L
+FIR - van Hilten, Jacobus J
+IR  - van Hilten JJ
+FIR - Marinus, Johan
+IR  - Marinus J
+FIR - Adarmes-Gómez, Astrid D
+IR  - Adarmes-Gómez AD
+FIR - Aguilar, Miquel
+IR  - Aguilar M
+FIR - Alvarez, Ignacio
+IR  - Alvarez I
+FIR - Alvarez, Victoria
+IR  - Alvarez V
+FIR - Javier Barrero, Francisco
+IR  - Javier Barrero F
+FIR - Bergareche Yarza, Jesús A
+IR  - Bergareche Yarza JA
+FIR - Bernal-Bernal, Inmaculada
+IR  - Bernal-Bernal I
+FIR - Blazquez, Marta
+IR  - Blazquez M
+FIR - Bonilla-Toribio, Marta
+IR  - Bonilla-Toribio M
+FIR - Botía, Juan A
+IR  - Botía JA
+FIR - Boungiorno, María T
+IR  - Boungiorno MT
+FIR - Buiza-Rueda, Dolores
+IR  - Buiza-Rueda D
+FIR - Càmara, Ana
+IR  - Càmara A
+FIR - Carrillo, Fátima
+IR  - Carrillo F
+FIR - Carrión-Claro, Mario
+IR  - Carrión-Claro M
+FIR - Cerdan, Debora
+IR  - Cerdan D
+FIR - Clarimón, Jordi
+IR  - Clarimón J
+FIR - Compta, Yaroslau
+IR  - Compta Y
+FIR - Diez-Fairen, Monica
+IR  - Diez-Fairen M
+FIR - Dols-Icardo, Oriol
+IR  - Dols-Icardo O
+FIR - Duarte, Jacinto
+IR  - Duarte J
+FIR - Duran, Raquel
+IR  - Duran R
+FIR - Escamilla-Sevilla, Francisco
+IR  - Escamilla-Sevilla F
+FIR - Ezquerra, Mario
+IR  - Ezquerra M
+FIR - Feliz, Cici
+IR  - Feliz C
+FIR - Fernàndez, Manel
+IR  - Fernàndez M
+FIR - Fernàndez-Santiago, Rubén
+IR  - Fernàndez-Santiago R
+FIR - Garcia, Ciara
+IR  - Garcia C
+FIR - García-Ruiz, Pedro
+IR  - García-Ruiz P
+FIR - Gómez-Garre, Pilar
+IR  - Gómez-Garre P
+FIR - Gomez Heredia, Maria J
+IR  - Gomez Heredia MJ
+FIR - Gonzalez-Aramburu, Isabel
+IR  - Gonzalez-Aramburu I
+FIR - Pagola, Ana G
+IR  - Pagola AG
+FIR - Hoenicka, Janet
+IR  - Hoenicka J
+FIR - Infante, Jon
+IR  - Infante J
+FIR - Jimenez-Escrig, Adriano
+IR  - Jimenez-Escrig A
+FIR - Kulisevsky, Jaime
+IR  - Kulisevsky J
+FIR - Labrador-Espinosa, Miguel A
+IR  - Labrador-Espinosa MA
+FIR - Lopez-Sendon, Jose Luis
+IR  - Lopez-Sendon JL
+FIR - Arregui, Adolfo López de Munain
+IR  - Arregui ALM
+FIR - Macias, Daniel
+IR  - Macias D
+FIR - Torres, Irene Martínez
+IR  - Torres IM
+FIR - Marín, Juan
+IR  - Marín J
+FIR - Marti, Maria Jose
+IR  - Marti MJ
+FIR - Martínez-Castrillo, Juan Carlos
+IR  - Martínez-Castrillo JC
+FIR - Mèndez-Del-Barrio, Carlota
+IR  - Mèndez-Del-Barrio C
+FIR - González, Manuel Menéndez
+IR  - González MM
+FIR - Adolfo Mínguez, Marina Mata
+IR  - Adolfo Mínguez MM
+FIR - Mir, Pablo
+IR  - Mir P
+FIR - Rezola, Elisabet Mondragon
+IR  - Rezola EM
+FIR - Muñoz, Esteban
+IR  - Muñoz E
+FIR - Pagonabarraga, Javier
+IR  - Pagonabarraga J
+FIR - Pastor, Pau
+IR  - Pastor P
+FIR - Errazquin, Francisco Perez
+IR  - Errazquin FP
+FIR - Perińán-Tocino, Teresa
+IR  - Perińán-Tocino T
+FIR - Ruiz-Martínez, Javier
+IR  - Ruiz-Martínez J
+FIR - Ruz, Clara
+IR  - Ruz C
+FIR - Rodriguez, Antonio Sanchez
+IR  - Rodriguez AS
+FIR - Sierra, María
+IR  - Sierra M
+FIR - Suarez-Sanmartin, Esther
+IR  - Suarez-Sanmartin E
+FIR - Tabernero, Cesar
+IR  - Tabernero C
+FIR - Tartari, Juan Pablo
+IR  - Tartari JP
+FIR - Tejera-Parrado, Cristina
+IR  - Tejera-Parrado C
+FIR - Tolosa, Eduard
+IR  - Tolosa E
+FIR - Valldeoriola, Francesc
+IR  - Valldeoriola F
+FIR - Vargas-González, Laura
+IR  - Vargas-González L
+FIR - Vela, Lydia
+IR  - Vela L
+FIR - Vives, Francisco
+IR  - Vives F
+FIR - Zimprich, Alexander
+IR  - Zimprich A
+FIR - Pihlstrom, Lasse
+IR  - Pihlstrom L
+FIR - Toft, Mathias
+IR  - Toft M
+FIR - Koks, Sulev
+IR  - Koks S
+FIR - Taba, Pille
+IR  - Taba P
+FIR - Hassin-Baer, Sharon
+IR  - Hassin-Baer S
+FIR - Weale, Michael
+IR  - Weale M
+FIR - Ramasamy, Adaikalavan
+IR  - Ramasamy A
+FIR - Smith, Colin
+IR  - Smith C
+FIR - Guelfi, Manuel Sebastian
+IR  - Guelfi MS
+FIR - D'sa, Karishma
+IR  - D'sa K
+FIR - Forabosco, Paola
+IR  - Forabosco P
+FIR - Botiá, Juan A
+IR  - Botiá JA
+EDAT- 2021/02/02 06:00
+MHDA- 2021/02/02 06:00
+CRDT- 2021/02/01 12:18
+PHST- 2021/02/01 12:18 [entrez]
+PHST- 2021/02/02 06:00 [pubmed]
+PHST- 2021/02/02 06:00 [medline]
+AID - 2775977 [pii]
+AID - noi200099 [pii]
+AID - 10.1001/jamaneurol.2020.5257 [doi]
+PST - aheadofprint
+SO  - JAMA Neurol. 2021 Feb 1:e205257. doi: 10.1001/jamaneurol.2020.5257.
+
+PMID- 33505025
+OWN - NLM
+STAT- Publisher
+LR  - 20210219
+IS  - 1476-4687 (Electronic)
+IS  - 0028-0836 (Linking)
+DP  - 2021 Jan 27
+TI  - Systematic analysis of binding of transcription factors to noncoding variants.
+LID - 10.1038/s41586-021-03211-0 [doi]
+AB  - Many sequence variants have been linked to complex human traits and diseases(1), but 
+      deciphering their biological functions remains challenging, as most of them reside 
+      in noncoding DNA. Here we have systematically assessed the binding of 270 human 
+      transcription factors to 95,886 noncoding variants in the human genome using an 
+      ultra-high-throughput multiplex protein-DNA binding assay, termed single-nucleotide 
+      polymorphism evaluation by systematic evolution of ligands by exponential enrichment 
+      (SNP-SELEX). The resulting 828 million measurements of transcription factor-DNA 
+      interactions enable estimation of the relative affinity of these transcription 
+      factors to each variant in vitro and evaluation of the current methods to predict 
+      the effects of noncoding variants on transcription factor binding. We show that the 
+      position weight matrices of most transcription factors lack sufficient predictive 
+      power, whereas the support vector machine combined with the gapped k-mer 
+      representation show much improved performance, when assessed on results from 
+      independent SNP-SELEX experiments involving a new set of 61,020 sequence variants. 
+      We report highly predictive models for 94 human transcription factors and 
+      demonstrate their utility in genome-wide association studies and understanding of 
+      the molecular pathways involved in diverse human traits and diseases.
+FAU - Yan, Jian
+AU  - Yan J
+AUID- ORCID: 0000-0002-1267-2870
+AD  - School of Medicine, Northwest University, Xi'an, China. jian.yan@cityu.edu.hk.
+AD  - Ludwig Institute for Cancer Research, La Jolla, CA, USA. jian.yan@cityu.edu.hk.
+AD  - Department of Biomedical Sciences, City University of Hong Kong, Hong Kong SAR, 
+      China. jian.yan@cityu.edu.hk.
+AD  - Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Solna, 
+      Sweden. jian.yan@cityu.edu.hk.
+FAU - Qiu, Yunjiang
+AU  - Qiu Y
+AUID- ORCID: 0000-0002-0539-9714
+AD  - Ludwig Institute for Cancer Research, La Jolla, CA, USA.
+AD  - Bioinformatics and Systems Biology Graduate Program, University of California San 
+      Diego, La Jolla, CA, USA.
+FAU - Ribeiro Dos Santos, André M
+AU  - Ribeiro Dos Santos AM
+AUID- ORCID: 0000-0002-7005-3576
+AD  - Ludwig Institute for Cancer Research, La Jolla, CA, USA.
+AD  - Universidade Federal do Pará, Institute of Biological Sciences, Belém, Brazil.
+FAU - Yin, Yimeng
+AU  - Yin Y
+AUID- ORCID: 0000-0002-5454-608X
+AD  - Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Solna, 
+      Sweden.
+AD  - Department of Biochemistry, University of Cambridge, Cambridge, UK.
+FAU - Li, Yang E
+AU  - Li YE
+AUID- ORCID: 0000-0001-6997-6018
+AD  - Ludwig Institute for Cancer Research, La Jolla, CA, USA.
+AD  - Department of Cellular and Molecular Medicine, University of California San Diego, 
+      La Jolla, CA, USA.
+FAU - Vinckier, Nick
+AU  - Vinckier N
+AD  - Department of Pediatrics, University of California San Diego, La Jolla, CA, USA.
+FAU - Nariai, Naoki
+AU  - Nariai N
+AD  - Department of Pediatrics, University of California San Diego, La Jolla, CA, USA.
+FAU - Benaglio, Paola
+AU  - Benaglio P
+AD  - Department of Pediatrics, University of California San Diego, La Jolla, CA, USA.
+FAU - Raman, Anugraha
+AU  - Raman A
+AD  - Ludwig Institute for Cancer Research, La Jolla, CA, USA.
+AD  - Bioinformatics and Systems Biology Graduate Program, University of California San 
+      Diego, La Jolla, CA, USA.
+FAU - Li, Xiaoyu
+AU  - Li X
+AD  - School of Medicine, Northwest University, Xi'an, China.
+AD  - Department of Biomedical Sciences, City University of Hong Kong, Hong Kong SAR, 
+      China.
+FAU - Fan, Shicai
+AU  - Fan S
+AD  - Department of Pediatrics, University of California San Diego, La Jolla, CA, USA.
+FAU - Chiou, Joshua
+AU  - Chiou J
+AUID- ORCID: 0000-0002-4618-0647
+AD  - Department of Pediatrics, University of California San Diego, La Jolla, CA, USA.
+FAU - Chen, Fulin
+AU  - Chen F
+AD  - School of Medicine, Northwest University, Xi'an, China.
+FAU - Frazer, Kelly A
+AU  - Frazer KA
+AUID- ORCID: 0000-0002-6060-8902
+AD  - Department of Pediatrics, University of California San Diego, La Jolla, CA, USA.
+FAU - Gaulton, Kyle J
+AU  - Gaulton KJ
+AD  - Department of Pediatrics, University of California San Diego, La Jolla, CA, USA.
+FAU - Sander, Maike
+AU  - Sander M
+AUID- ORCID: 0000-0001-5308-7785
+AD  - Department of Cellular and Molecular Medicine, University of California San Diego, 
+      La Jolla, CA, USA.
+AD  - Department of Pediatrics, University of California San Diego, La Jolla, CA, USA.
+FAU - Taipale, Jussi
+AU  - Taipale J
+AUID- ORCID: 0000-0003-4204-0951
+AD  - Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Solna, 
+      Sweden. ajt208@cam.ac.uk.
+AD  - Department of Biochemistry, University of Cambridge, Cambridge, UK. 
+      ajt208@cam.ac.uk.
+AD  - Genome-Scale Biology Program, University of Helsinki, Helsinki, Finland. 
+      ajt208@cam.ac.uk.
+FAU - Ren, Bing
+AU  - Ren B
+AUID- ORCID: 0000-0002-5435-1127
+AD  - Ludwig Institute for Cancer Research, La Jolla, CA, USA. biren@ucsd.edu.
+AD  - Department of Cellular and Molecular Medicine, University of California San Diego, 
+      La Jolla, CA, USA. biren@ucsd.edu.
+AD  - Center for Epigenomics, University of California San Diego, La Jolla, CA, USA. 
+      biren@ucsd.edu.
+LA  - eng
+PT  - Journal Article
+DEP - 20210127
+PL  - England
+TA  - Nature
+JT  - Nature
+JID - 0410462
+SB  - IM
+EDAT- 2021/01/29 06:00
+MHDA- 2021/01/29 06:00
+CRDT- 2021/01/28 05:40
+PHST- 2018/11/28 00:00 [received]
+PHST- 2020/12/11 00:00 [accepted]
+PHST- 2021/01/29 06:00 [pubmed]
+PHST- 2021/01/29 06:00 [medline]
+PHST- 2021/01/28 05:40 [entrez]
+AID - 10.1038/s41586-021-03211-0 [pii]
+AID - 10.1038/s41586-021-03211-0 [doi]
+PST - aheadofprint
+SO  - Nature. 2021 Jan 27. doi: 10.1038/s41586-021-03211-0.
