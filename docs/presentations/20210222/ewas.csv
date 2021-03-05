@@ -1,0 +1,15 @@
+type,pmid,journal,variable,tissue,n,cohort,assocs,notes
+exposure,33566097,Genome Biol Evol,altitude,blood,113,Peruvian Quechua,2,"enrichment  in hypoxia-inducible factors, red blood cell production, etc."
+exposure,33593402,Clin Epigenetics,cigarette smoking,blood,1407,NSHD;NCDS;BCS70;TwinsUK,952,526 on EPIC array only; 486 of these replicated; 37 persistent after cessation
+genetic,33554115,NAR Genom Bioinform,C9orf72 (C9) repeat expansion status,blood,1748,Project MinE,18,majority of probes cross-hybridized with the C9orf72 locus; suggest a ‘flag and consider’ approach; provide scripts
+genetic,33547282,Nat Commun,Down syndrome,neonatal bloodspots,196 cases; 439 controls,,652,
+phenotype,33550919,Epigenetics,adiposity,blood at 17y,1192,Raine Study,BMI29;WC10;SFT9 ,
+phenotype,33499918,Clin Epigenetics,plasma copper,blood,1243,Chinese,4,
+phenotype,33484127,J Clin Endocrinol Metab,thyroid function,blood at 14 and 17,563+863,BSGS and Raine Study,9,
+phenotype,33466918,Int J Mol Sci,IgE sensitization,cord and peripheral blood during pregnancy and ages 2 and 5,74 mother-child pairs,ALADDIN,null,
+pregnancy,33564054,Sci Rep,gestational age,cord and peripheral blood,110 cord; 47 peripheral,,2093,54 sites associated with gene expression
+pregnancy,33517419,Int J Epidemiol,paternal body mass index,cord and peripheral blood,4894 cord; 1982 peripheral,PACE,null,4 associations in females
+pregnancy,33515580,Environ Res,prenatal lead ,cord blood,364,Korean Exposome Study,1 all; 18 males,
+psycho,33542190,Transl Psychiatry,social anxiety,blood,143,,2 DMRs,
+psycho,33528912,Aging Cell,cognitive score,,400 twins,,9 of top 65 replicated,used 'generalized correlation coefficient' rather than linear models
+psycho,33494854,Dev Psychopathol,trajectories of social communication deficits,cord and peripheral blood,804 cord; 877 blood age 7,ALSPAC,3 cord,Not replicated in GenR
