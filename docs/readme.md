@@ -1,11 +1,11 @@
 ## Epigenetics journal club presentations
 For more information contact [Matthew Suderman](matthew.suderman@bristol.ac.uk).
 
-* **2021** html [03-08](presentations/20210308/slides.html)
+* **2021** [03-08](presentations/20210308/slides.html)
 [02-22](presentations/20210222/slides.html)
 [01-25](presentations/20210125/slides.html)
 [01-11](presentations/20210111/slides.html)
-* **2020** html
+* **2020** 
 [12-14](presentations/20201214/slides.html)
 [11-23](presentations/20201123/slides.html)
 [10-26](presentations/20201026/slides.html)
