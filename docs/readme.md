@@ -50,3 +50,7 @@ powerpoint
 [03-12](presentations/20190312-journal-club.pptx) 
 * **2015-2019** [journal club notices](presentations/journal-club-archive.html)
     ([docx](presentations/journal-club-archive.docx)) 
+
+
+Code and publication data can be found at the 
+[github repository](https://github.com/MRCIEU/epigenetics-journal-club).
