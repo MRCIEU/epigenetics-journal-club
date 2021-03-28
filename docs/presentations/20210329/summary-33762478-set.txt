@@ -1,0 +1,91 @@
+1: Liu Q, Liu G, Martin DT, Xing YT, Weiss RM, Qi J, Kang J. Genome-wide
+association analysis reveals regulation of at-risk loci by DNA methylation in
+prostate cancer. Asian J Androl. 2021 Mar 23. doi: 10.4103/aja.aja_20_21. Epub
+ahead of print. PMID: 33762478.
+
+2: Danilova L, Wrangle J, Herman JG, Cope L. DNA-methylation for the detection
+and distinction of 19 human malignancies. Epigenetics. 2021 Mar 5:1-11. doi:
+10.1080/15592294.2021.1890885. Epub ahead of print. PMID: 33666134.
+
+3: Giacopelli B, Wang M, Cleary A, Wu YZ, Schultz AR, Schmutz M, Blachly JS,
+Eisfeld AK, Mundy-Bosse B, Vosberg S, Greif PA, Claus R, Bullinger L, Garzon R,
+Coombes KR, Bloomfield CD, Druker BJ, Tyner JW, Byrd JC, Oakes CC. DNA
+methylation epitypes highlight underlying developmental and disease pathways in
+acute myeloid leukemia. Genome Res. 2021 Mar 11:gr.269233.120. doi:
+10.1101/gr.269233.120. Epub ahead of print. PMID: 33707228.
+
+4: Vural S, Palmisano A, Reinhold WC, Pommier Y, Teicher BA, Krushkal J.
+Association of expression of epigenetic molecular factors with DNA methylation
+and sensitivity to chemotherapeutic agents in cancer cell lines. Clin
+Epigenetics. 2021 Mar 6;13(1):49. doi: 10.1186/s13148-021-01026-4. PMID:
+33676569; PMCID: PMC7936435.
+
+5: Petersen CL, Christensen BC, Batsis JA. Weight management intervention
+identifies association of decreased DNA methylation age with improved functional
+age measures in older adults with obesity. Clin Epigenetics. 2021 Mar
+2;13(1):46. doi: 10.1186/s13148-021-01031-7. PMID: 33653394; PMCID: PMC7927264.
+
+6: Ammous F, Zhao W, Ratliff SM, Mosley TH, Bielak LF, Zhou X, Peyser PA, Kardia
+SLR, Smith JA. Epigenetic age acceleration is associated with cardiometabolic
+risk factors and clinical cardiovascular disease risk scores in African
+Americans. Clin Epigenetics. 2021 Mar 16;13(1):55. doi:
+10.1186/s13148-021-01035-3. PMID: 33726838; PMCID: PMC7962278.
+
+7: Wilkinson GS, Adams DM, Haghani A, Lu AT, Zoller J, Breeze CE, Arnold BD,
+Ball HC, Carter GG, Cooper LN, Dechmann DKN, Devanna P, Fasel NJ, Galazyuk AV,
+Günther L, Hurme E, Jones G, Knörnschild M, Lattenkamp EZ, Li CZ, Mayer F,
+Reinhardt JA, Medellin RA, Nagy M, Pope B, Power ML, Ransome RD, Teeling EC,
+Vernes SC, Zamora-Mejías D, Zhang J, Faure PA, Greville LJ, Horvath S. DNA
+methylation predicts age and provides insight into exceptional longevity of
+bats. Nat Commun. 2021 Mar 12;12(1):1615. doi: 10.1038/s41467-021-21900-2. PMID:
+33712580.
+
+8: Yaskolka Meir A, Keller M, Bernhart SH, Rinott E, Tsaban G, Zelicha H, Kaplan
+A, Schwarzfuchs D, Shelef I, Gepner Y, Li J, Lin Y, Blüher M, Ceglarek U,
+Stumvoll M, Stadler PF, Stampfer MJ, Kovacs P, Liang L, Shai I. Lifestyle
+weight-loss intervention may attenuate methylation aging: the CENTRAL MRI
+randomized controlled trial. Clin Epigenetics. 2021 Mar 4;13(1):48. doi:
+10.1186/s13148-021-01038-0. PMID: 33663610; PMCID: PMC7934393.
+
+9: Clausing ES, Binder AM, Non AL. Epigenetic age associates with psychosocial
+stress and resilience in children of Latinx immigrants. Epigenomics. 2021 Mar
+22. doi: 10.2217/epi-2019-0343. Epub ahead of print. PMID: 33749330.
+
+10: Momin SR, Senn MK, Buckley S, Buist NRM, Gandhi M, Hair AB, Hughes SO,
+Hodges KR, Lange WC, Papaioannou MA, Phan M, Waterland RA, Wood AC. Rationale
+and design of the Baylor Infant Twin Study-A study assessing obesity-related
+risk factors from infancy. Obes Sci Pract. 2020 Nov 11;7(1):63-70. doi:
+10.1002/osp4.463. PMID: 33680493; PMCID: PMC7909590.
+
+11: Zhang H, Cai R, Dai J, Sun W. EMeth: An EM algorithm for cell type
+decomposition based on DNA methylation data. Sci Rep. 2021 Mar 11;11(1):5717.
+doi: 10.1038/s41598-021-84864-9. PMID: 33707472; PMCID: PMC7952399.
+
+12: Pellegrino-Coppola D, Claringbould A, Stutvoet M; BIOS Consortium, Boomsma
+DI, Ikram MA, Slagboom PE, Westra HJ, Franke L. Correction for both common and
+rare cell types in blood is important to identify genes that correlate with age.
+BMC Genomics. 2021 Mar 15;22(1):184. doi: 10.1186/s12864-020-07344-w. PMID:
+33722199; PMCID: PMC7958454.
+
+13: Takeuchi F, Kato N. Nonlinear ridge regression improves cell-type-specific
+differential expression analysis. BMC Bioinformatics. 2021 Mar 22;22(1):141.
+doi: 10.1186/s12859-021-03982-3. PMID: 33752591; PMCID: PMC7986289.
+
+14: Hannon E, Mansell G, Walker E, Nabais MF, Burrage J, Kepa A, Best-Lane J,
+Rose A, Heck S, Moffitt TE, Caspi A, Arseneault L, Mill J. Assessing the co-
+variability of DNA methylation across peripheral cells and tissues: Implications
+for the interpretation of findings in epigenetic epidemiology. PLoS Genet. 2021
+Mar 19;17(3):e1009443. doi: 10.1371/journal.pgen.1009443. Epub ahead of print.
+PMID: 33739972.
+
+15: Rondinone O, Murgia A, Costanza J, Tabano S, Camanni M, Corsaro L, Fontana
+L, Colapietro P, Calzari L, Motta S, Santaniello C, Radaelli T, Ferrazzi E,
+Bosari S, Gentilini D, Sirchia SM, Miozzo M. Extensive Placental Methylation
+Profiling in Normal Pregnancies. Int J Mol Sci. 2021 Feb 21;22(4):2136. doi:
+10.3390/ijms22042136. PMID: 33669975; PMCID: PMC7924820.
+
+16: Schmidt M, Hopp L, Arakelyan A, Kirsten H, Engel C, Wirkner K, Krohn K,
+Burkhardt R, Thiery J, Loeffler M, Loeffler-Wirth H, Binder H. The Human Blood
+Transcriptome in a Large Population Cohort and Its Relation to Aging and Health.
+Front Big Data. 2020 Oct 30;3:548873. doi: 10.3389/fdata.2020.548873. PMID:
+33693414; PMCID: PMC7931910.

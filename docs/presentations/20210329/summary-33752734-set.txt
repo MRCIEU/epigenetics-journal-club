@@ -1,0 +1,40 @@
+1: Yao C, Joehanes R, Wilson R, Tanaka T, Ferrucci L, Kretschmer A, Prokisch H,
+Schramm K, Gieger C, Peters A, Waldenberger M, Marzi C, Herder C, Levy D.
+Epigenome-wide association study of whole blood gene expression in Framingham
+Heart Study participants provides molecular insight into the potential role of
+CHRNA5 in cigarette smoking-related lung diseases. Clin Epigenetics. 2021 Mar
+22;13(1):60. doi: 10.1186/s13148-021-01041-5. PMID: 33752734; PMCID: PMC7986283.
+
+2: Yan Q, Forno E, Cardenas A, Qi C, Han YY, Acosta-Pérez E, Kim S, Zhang R,
+Boutaoui N, Canino G, Vonk JM, Xu CJ, Chen W, Marsland A, Oken E, Gold DR,
+Koppelman GH, Celedón JC. Exposure to violence, chronic stress, nasal DNA
+methylation, and atopic asthma in children. Pediatr Pulmonol. 2021 Mar 22. doi:
+10.1002/ppul.25372. Epub ahead of print. PMID: 33751861.
+
+3: Terzikhan N, Xu H, Edris A, Bracke KR, Verhamme FM, Stricker BHC, Dupuis J,
+Lahousse L, O'Connor GT, Brusselle GG. Epigenome-wide association study on
+diffusing capacity of the lung. ERJ Open Res. 2021 Mar 15;7(1):00567-2020. doi:
+10.1183/23120541.00567-2020. PMID: 33748261; PMCID: PMC7957297.
+
+4: Moccia C, Popovic M, Isaevska E, Fiano V, Trevisan M, Rusconi F, Polidoro S,
+Richiardi L. Birthweight DNA methylation signatures in infant saliva. Clin
+Epigenetics. 2021 Mar 19;13(1):57. doi: 10.1186/s13148-021-01053-1. PMID:
+33741061; PMCID: PMC7980592.
+
+5: Sun YQ, Richmond RC, Suderman M, Min JL, Battram T, Flatberg A, Beisvag V,
+Nøst TH, Guida F, Jiang L, Wahl SGF, Langhammer A, Skorpen F, Walker RM,
+Bretherick AD, Zeng Y, Chen Y, Johansson M, Sandanger TM, Relton CL, Mai XM.
+Assessing the role of genome-wide DNA methylation between smoking and risk of
+lung cancer using repeated measurements: the HUNT study. Int J Epidemiol. 2021
+Mar 17:dyab044. doi: 10.1093/ije/dyab044. Epub ahead of print. PMID: 33729499.
+
+6: Shu C, Sosnowski DW, Tao R, Deep-Soboslay A, Kleinman JE, Hyde TM, Jaffe AE,
+Sabunciyan S, Maher BS. Epigenome-wide study of brain DNA methylation following
+acute opioid intoxication. Drug Alcohol Depend. 2021 Feb 26;221:108658. doi:
+10.1016/j.drugalcdep.2021.108658. Epub ahead of print. PMID: 33667780.
+
+7: Xu R, Hong X, Zhang B, Huang W, Hou W, Wang G, Wang X, Igusa T, Liang L, Ji
+H. DNA methylation mediates the effect of maternal smoking on offspring
+birthweight: a birth cohort study of multi-ethnic US mother-newborn pairs. Clin
+Epigenetics. 2021 Mar 4;13(1):47. doi: 10.1186/s13148-021-01032-6. PMID:
+33663600; PMCID: PMC7931602.
