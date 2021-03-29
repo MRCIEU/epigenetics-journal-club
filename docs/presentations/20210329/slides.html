@@ -33,20 +33,42 @@ MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;&nbsp;
 
 > Yao C, ... Levy D.**Epigenome-wide association study of whole blood gene expression in Framingham Heart Study participants provides molecular insight into the potential role of CHRNA5 in cigarette smoking-related lung diseases**. *Clin Epigenetics*. 2021 Mar 22;13(1):60. 
 
+**tissue** whole blood
+
+**size** n=6000
+
+**dataset** matching DNA methylation and gene expression
+
+**cohorts** FHS, KORA, InCHIANTI, BLSA
+
+**results**
+- 148-1741 gene-CpG pairs per cohort
+- closer pair = larger effect
+- 36% of pairs share the same causal genetic variant
+- MR shows reduced methylation and expression of CHRNA5 causally linked to COPD and lung cancer (validated in lung tissue)
+
+
 
 ---
 
 ## EWAS: lung cancer
 
-> Sun YQ, Richmond RC, ... Relton CL, Mai XM. **Assessing the role of genome-wide DNA methylation between smoking and risk of lung cancer using repeated measurements: the HUNT study**. *Int J Epidemiol*. 2021
+> Sun Yi-Qian, Richmond RC, ... Relton CL, Mai XM. **Assessing the role of genome-wide DNA methylation between smoking and risk of lung cancer using repeated measurements: the HUNT study**. *Int J Epidemiol*. 2021
 Mar 17:dyab044. 
 
----
+**variable** lung cancer risk and smoking
 
-## EWAS: diffusing capacity of the lung
+**tissue** whole blood
 
-> Terzikhan N, ... Brusselle GG. **Epigenome-wide association study on
-diffusing capacity of the lung**. *ERJ Open Res*. 2021 Mar 15;7(1):00567-2020. 
+**size** 140 lung cancer cases and 140 controls
+
+**cohorts** HUNT2
+
+**results**
+- 76 associations with smoking (16 novel) 
+- MR: smoking cases DNA methylation changes 
+- no associations with future lung cancer
+- MR: no evidence DNA methylation changes (smoking or otherwise) cause lung cancer
 
 ---
 
@@ -54,82 +76,153 @@ diffusing capacity of the lung**. *ERJ Open Res*. 2021 Mar 15;7(1):00567-2020.
 
 > Shu C, ... Maher BS. **Epigenome-wide study of brain DNA methylation following acute opioid intoxication**. *Drug Alcohol Depend*. 2021 Feb 26;221:108658. 
 
+**variable** death from acute opioid intoxication
+
+**tissue** dorsolateral prefrontal cortex
+
+**size** 153 (72 cases, 53 psychiatric controls, 28 controls)
+
+**results**
+- No associations
+- PhenoAge accelerated by 2.24 years (p=0.045)
+
 ---
 
 ## EWAS: birthweight 
 
 > Moccia C, ... Richiardi L. **Birthweight DNA methylation signatures in infant saliva**. *Clin Epigenetics*. 2021 Mar 19;13(1):57. 
 
+**variable** birthweight
+
+**tissue** infant saliva at average age 10.8 months
+
+**size** 135
+
+**results**
+- 44 associations
+- 44 associations with small for gestational age (1 overlap with birthweight)
+- no overlap with PACE cord blood study
+
+---
+
+## EWAS: maternal smoking and birthweight 
+
 > Xu R, ... Ji H. **DNA methylation mediates the effect of maternal smoking on offspring birthweight: a birth cohort study of multi-ethnic US mother-newborn pairs**. *Clin Epigenetics*. 2021 Mar 4;13(1):47. 
 
+**variable** maternal smoking
+
+**tissue** cord blood
+
+**cohort** "a US predominantly urban, low-income multi-ethnic birth cohort"
+
+**size** 954
+
+**results**
+- 38 associations with maternal smoking
+- ... of which 8 associated with birthweight
+- ... these explain 67.8% of maternal smoking-birthweight association
+- ... most linked to the GFI1 gene and also found to be mediators in Kupers et al (PMID 25862628)
 
 ---
 
-## Cancer
-
-> Liu Q, ... Kang J. **Genome-wide association analysis reveals regulation of at-risk loci by DNA methylation in prostate cancer**. *Asian J Androl*. 2021 Mar 23. 
-
-> Danilova L, Wrangle J, Herman JG, Cope L. **DNA-methylation for the detection
-and distinction of 19 human malignancies**. *Epigenetics*. 2021 Mar 5:1-11. 
-
-> Giacopelli B, ... Oakes CC. **DNA methylation epitypes highlight underlying developmental and disease pathways in acute myeloid leukemia**. *Genome Res*. 2021 Mar 11:gr.269233.120.
-
-
----
-
-## DNAm age
-
-> Petersen CL, Christensen BC, Batsis JA. **Weight management intervention identifies association of decreased DNA methylation age with improved functional age measures in older adults with obesity**. *Clin Epigenetics*. 2021 Mar
-2;13(1):46. 
-
-> Ammous F, ... Smith JA. **Epigenetic age acceleration is associated with cardiometabolic risk factors and clinical cardiovascular disease risk scores in African Americans**. *Clin Epigenetics*. 2021 Mar 16;13(1):55. 
-
-> Wilkinson GS, ... Horvath S. **DNA methylation predicts age and provides insight into exceptional longevity of bats**. *Nat Commun*. 2021 Mar 12;12(1):1615.
+## DNAm age: weight-loss intervention
 
 > Yaskolka Meir A, ... Shai I. **Lifestyle weight-loss intervention may attenuate methylation aging: the CENTRAL MRI randomized controlled trial**. *Clin Epigenetics*. 2021 Mar 4;13(1):48. 
 
-> Clausing ES, Binder AM, Non AL. **Epigenetic age associates with psychosocial
-stress and resilience in children of Latinx immigrants**. *Epigenomics*. 2021 Mar 22.
+**intervention** 18-month low fat vs mediterranean/low carbohydrate diets + physical activity (aerobic)
+
+**sample size** 30 LF, 30LF+PA, 30 MED/LC, 30 MED/LC+PA
+
+**dataset** DNAm age calculated from 240 CpG sites (Li et al EHP 2018) and blood DNA methylation measured at baseline and 18 months later
+
+**results**
+- DNAm age increased between baseline and 18 months 
+- DNAm age increase did not differ between groups
+- DNAm age increase doubled in those who failed to lose weight (1.1 vs 0.6, p=0.04)
+- DNAm age increase tripled in those with fatty liver (1.8 vs 0.6, p=0.0003)
 
 ---
 
-## Meta-stable epi-alleles
+## DNAm age: CVD in African Americans
 
-> Momin SR, ... Wood AC. **Rationale and design of the Baylor Infant Twin Study-A study assessing obesity-related risk factors from infancy**. *Obes Sci Pract*. 2020 Nov 11;7(1):63-70.
+> Ammous F, ... Smith JA. **Epigenetic age acceleration is associated with cardiometabolic risk factors and clinical cardiovascular disease risk scores in African Americans**. *Clin Epigenetics*. 2021 Mar 16;13(1):55. 
+
+**sample size** 1100 hypertensive AA 
+
+**cohort** Genetic Epidemiology Network of Arteriopathy (GENOA)
+
+**results** Increased epigenetic age acceleration was associated with:
+- higher systolic blood pressure (IEAA), 
+- higher pulse pressure (EEAA and GrimAA), 
+- higher fasting glucose (PhenoAA and GrimAA), 
+- higher fasting insulin (EEAA), 
+- lower low density cholesterol (GrimAA), and 
+- higher triglycerides (GrimAA). 
+
+five-year increase in GrimAA = CVD incidence HR=1.54 (95% CI 1.22-2.01) 
+(partly independent of CVD risk factors)
+
+--
+
+*"Our findings are in line with the literature in cohorts of European ancestry, showing that GrimAA outperforms other measures in its association with CVD incidence"*
 
 ---
 
-## Methods
-
-> Zhang H, Cai R, Dai J, Sun W. **EMeth: An EM algorithm for cell type
-decomposition based on DNA methylation data**. *Sci Rep*. 2021 Mar 11;11(1):5717.
+## Need more cell types in blood references?
 
 > Pellegrino-Coppola D, ... Franke L. **Correction for both common and
 rare cell types in blood is important to identify genes that correlate with age**.
 *BMC Genomics*. 2021 Mar 15;22(1):184.
 
-> Takeuchi F, Kato N. **Nonlinear ridge regression improves cell-type-specific
-differential expression analysis**. *BMC Bioinformatics*. 2021 Mar 22;22(1):141.
+**data** 3165 gene expression profiles (RNA-seq) from blood (age 18-81)
+
+**methods**
+- model 1: counts for 5 major blood cell types
+- model 2: counts for 5 major + 33 additional white blood cell types
+
+**results**
+
+Model 1 has **2808** vs model 2 **625** genes associated with age (511 in common).
+
+*Is this just a power difference?* Model 2 has
+- lower mean-squared errors in regression models
+- more normally distributed residuals
+- 'less' heteroskedasticity
+- model 1 age-associated genes show evidence of differential methylation between cell types
+- functional enrichment of genes from each model generally distinct
 
 ---
 
-## TWAS
-
-> Schmidt M, ... Binder H. **The Human Blood Transcriptome in a Large Population Cohort and Its Relation to Aging and Health.** *Front Big Data*. 2020 Oct 30;3:548873. 
-
----
-
-## Cell lines
-
-> Vural S, ... Krushkal J. **Association of expression of epigenetic molecular factors with DNA methylation and sensitivity to chemotherapeutic agents in cancer cell lines**. *Clin Epigenetics*. 2021 Mar 6;13(1):49.
-
----
-
-## Reference data
+## Reference data: peripheral cells and tissues
 
 > Hannon E, ... Mill J. **Assessing the co-variability of DNA methylation across peripheral cells and tissues: Implications for the interpretation of findings in epigenetic epidemiology**. *PLoS Genet*. 2021 Mar 19;17(3):e1009443.
 
+**tissues** whole blood (monocytes, granulocytes, CD4+ T cells, CD8+ T cells, and B cells), buccal epithelial and nasal epithelial cells
+
+**cohort** E-Risk
+
+**size** thirty individuals
+
+**results**
+- lots of cell-type specific methylation levels and variation
+- DNAm estimates of age and smoking varied by cell type
+- variance in blood cell types *weakly* predictive of variance in blood
+- for some CpG sites, variation occurs in a single blood cell type (useful for determining cell-type-specific associations)
+
+
+---
+
+## Reference data: placenta
+
 > Rondinone O, ... Miozzo M. **Extensive Placental Methylation Profiling in Normal Pregnancies**. *Int J Mol Sci*. 2021 Feb 21;22(4):2136.
+
+**sample size** 154 placentas and cord blood samples
+
+**results** 
+- placenta methylation more variable
+
+*Unclear how to access the data. Possibly ask 
+"Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy"*
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
