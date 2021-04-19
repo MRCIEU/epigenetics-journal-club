@@ -1,0 +1,139 @@
+1: Hüls A, Robins C, Conneely KN, Edgar R, De Jager PL, Bennett DA, Wingo AP,
+Epstein MP, Wingo TS. Brain DNA Methylation Patterns in CLDN5 Associated With
+Cognitive Decline. Biol Psychiatry. 2021 Feb 3:S0006-3223(21)00084-6. doi:
+10.1016/j.biopsych.2021.01.015. Epub ahead of print. PMID: 33838873.
+
+2: Vidaki A, González DM, Jiménez BP, Kayser M. Male-specific age estimation
+based on Y-chromosomal DNA methylation. Aging (Albany NY). 2021 Mar
+11;13(5):6442-6458. doi: 10.18632/aging.202775. Epub 2021 Mar 11. PMID:
+33744870; PMCID: PMC7993701.
+
+3: Gómez-Carballa A, Barral-Arca R, Cebey-López M, Bello X, Pardo-Seco J,
+Martinón-Torres F, Salas A. Identification of a Minimal 3-Transcript Signature
+to Differentiate Viral from Bacterial Infection from Best Genome-Wide Host RNA
+Biomarkers: A Multi-Cohort Analysis. Int J Mol Sci. 2021 Mar 19;22(6):3148. doi:
+10.3390/ijms22063148. PMID: 33808774; PMCID: PMC8003556.
+
+4: Paul KC, Horvath S, Del Rosario I, Bronstein JM, Ritz B. DNA methylation
+biomarker for cumulative lead exposure is associated with Parkinson's disease.
+Clin Epigenetics. 2021 Mar 22;13(1):59. doi: 10.1186/s13148-021-01051-3. PMID:
+33752746; PMCID: PMC7983295.
+
+5: Gai W, Zhou Z, Agbor-Enoh S, Fan X, Lian S, Jiang P, Cheng SH, Wong J, Chan
+SL, Jang MK, Yang Y, Liang RH, Chan WK, Ma ES, Leung TY, Chiu RW, Valantine H,
+Chan KA, Lo YD. Applications of genetic-epigenetic tissue mapping for plasma DNA
+in prenatal testing, transplantation and oncology. Elife. 2021 Mar 23;10:e64356.
+doi: 10.7554/eLife.64356. PMID: 33752803; PMCID: PMC7997656.
+
+6: Clark HR, McKenney C, Livingston NM, Gershman A, Sajjan S, Chan IS, Ewald AJ,
+Timp W, Wu B, Singh A, Regot S. Epigenetically regulated digital signaling
+defines epithelial innate immunity at the tissue level. Nat Commun. 2021 Mar
+23;12(1):1836. doi: 10.1038/s41467-021-22070-x. PMID: 33758175; PMCID:
+PMC7988009.
+
+7: Wang J, Zhang H, Rezwan FI, Relton C, Arshad SH, Holloway JW. Pre-adolescence
+DNA methylation is associated with BMI status change from pre- to post-
+adolescence. Clin Epigenetics. 2021 Mar 25;13(1):64. doi:
+10.1186/s13148-021-01042-4. PMID: 33766110; PMCID: PMC7995693.
+
+8: Nabais MF, Laws SM, Lin T, Vallerga CL, Armstrong NJ, Blair IP, Kwok JB,
+Mather KA, Mellick GD, Sachdev PS, Wallace L, Henders AK, Zwamborn RAJ, Hop PJ,
+Lunnon K, Pishva E, Roubroeks JAY, Soininen H, Tsolaki M, Mecocci P, Lovestone
+S, Kłoszewska I, Vellas B; Australian Imaging Biomarkers and Lifestyle study;
+Alzheimer’s Disease Neuroimaging Initiative, Furlong S, Garton FC, Henderson RD,
+Mathers S, McCombe PA, Needham M, Ngo ST, Nicholson G, Pamphlett R, Rowe DB,
+Steyn FJ, Williams KL, Anderson TJ, Bentley SR, Dalrymple-Alford J, Fowder J,
+Gratten J, Halliday G, Hickie IB, Kennedy M, Lewis SJG, Montgomery GW, Pearson
+J, Pitcher TL, Silburn P, Zhang F, Visscher PM, Yang J, Stevenson AJ, Hillary
+RF, Marioni RE, Harris SE, Deary IJ, Jones AR, Shatunov A, Iacoangeli A, van
+Rheenen W, van den Berg LH, Shaw PJ, Shaw CE, Morrison KE, Al-Chalabi A, Veldink
+JH, Hannon E, Mill J, Wray NR, McRae AF. Meta-analysis of genome-wide DNA
+methylation identifies shared associations across neurodegenerative disorders.
+Genome Biol. 2021 Mar 26;22(1):90. doi: 10.1186/s13059-021-02275-5. PMID:
+33771206; PMCID: PMC8004462.
+
+9: Antoun E, Titcombe P, Dalrymple K, Kitaba NT, Barton SJ, Flynn AC, Murray R,
+Garratt ES, Seed PT, White SL, Cooper C, Inskip HM, Hanson M, Poston L, Godfrey
+KM, Lillycrop KA. DNA methylation signatures in cord blood associated with
+birthweight are enriched for dmCpGs previously associated with maternal
+hypertension or pre-eclampsia, smoking and folic acid intake. Epigenetics. 2021
+Mar 30. doi: 10.1080/15592294.2021.1908706. Epub ahead of print. PMID: 33784941.
+
+10: Chen Q, Ming Y, Gan Y, Huang L, Zhao Y, Wang X, Liu Y, Zhang J. The impact
+of cesarean delivery on infant DNA methylation. BMC Pregnancy Childbirth. 2021
+Mar 30;21(1):265. doi: 10.1186/s12884-021-03748-y. PMID: 33785011; PMCID:
+PMC8011183.
+
+11: Sarno F, Benincasa G, List M, Barabasi AL, Baumbach J, Ciardiello F, Filetti
+S, Glass K, Loscalzo J, Marchese C, Maron BA, Paci P, Parini P, Petrillo E,
+Silverman EK, Verrienti A, Altucci L, Napoli C; International Network Medicine
+Consortium. Clinical epigenetics settings for cancer and cardiovascular
+diseases: real-life applications of network medicine at the bedside. Clin
+Epigenetics. 2021 Mar 30;13(1):66. doi: 10.1186/s13148-021-01047-z. PMID:
+33785068; PMCID: PMC8010949.
+
+12: Jeong H, Mendizabal I, Berto S, Chatterjee P, Layman T, Usui N, Toriumi K,
+Douglas C, Singh D, Huh I, Preuss TM, Konopka G, Yi SV. Evolution of DNA
+methylation in the human brain. Nat Commun. 2021 Apr 1;12(1):2021. doi:
+10.1038/s41467-021-21917-7. PMID: 33795684; PMCID: PMC8017017.
+
+13: Nøst TH, Holden M, Dønnem T, Bøvelstad H, Rylander C, Lund E, Sandanger TM.
+Transcriptomic signals in blood prior to lung cancer focusing on time to
+diagnosis and metastasis. Sci Rep. 2021 Apr 1;11(1):7406. doi:
+10.1038/s41598-021-86879-8. PMID: 33795786; PMCID: PMC8017014.
+
+14: C Chi G, Liu Y, MacDonald JW, M Reynolds L, Enquobahrie DA, L Fitzpatrick A,
+Kerr KF, J Budoff M, Lee SI, Siscovick D, D Kaufman J. Epigenome-wide analysis
+of long-term air pollution exposure and DNA methylation in monocytes: results
+from the Multi-Ethnic Study of Atherosclerosis. Epigenetics. 2021 Apr 5:1-17.
+doi: 10.1080/15592294.2021.1900028. Epub ahead of print. PMID: 33818294.
+
+15: Song N, Hsu CW, Pan H, Zheng Y, Hou L, Sim JA, Li Z, Mulder H, Easton J,
+Walker E, Neale G, Wilson CL, Ness KK, Krull KR, Srivastava DK, Yasui Y, Zhang
+J, Hudson MM, Robison LL, Huang IC, Wang Z. Persistent variations of blood DNA
+methylation associated with treatment exposures and risk for cardiometabolic
+outcomes in long-term survivors of childhood cancer in the St. Jude Lifetime
+Cohort. Genome Med. 2021 Apr 6;13(1):53. doi: 10.1186/s13073-021-00875-1. PMID:
+33823916; PMCID: PMC8025387.
+
+16: Bakhtiari M, Park J, Ding YC, Shleizer-Burko S, Neuhausen SL, Halldórsson
+BV, Stefánsson K, Gymrek M, Bafna V. Variable number tandem repeats mediate the
+expression of proximal genes. Nat Commun. 2021 Apr 6;12(1):2075. doi:
+10.1038/s41467-021-22206-z. PMID: 33824302.
+
+17: Logsdon GA, Vollger MR, Hsieh P, Mao Y, Liskovykh MA, Koren S, Nurk S,
+Mercuri L, Dishuck PC, Rhie A, de Lima LG, Dvorkina T, Porubsky D, Harvey WT,
+Mikheenko A, Bzikadze AV, Kremitzki M, Graves-Lindsay TA, Jain C, Hoekzema K,
+Murali SC, Munson KM, Baker C, Sorensen M, Lewis AM, Surti U, Gerton JL,
+Larionov V, Ventura M, Miga KH, Phillippy AM, Eichler EE. The structure,
+function and evolution of a complete human chromosome 8. Nature. 2021 Apr 7.
+doi: 10.1038/s41586-021-03420-7. Epub ahead of print. PMID: 33828295.
+
+18: Nasser J, Bergman DT, Fulco CP, Guckelberger P, Doughty BR, Patwardhan TA,
+Jones TR, Nguyen TH, Ulirsch JC, Lekschas F, Mualim K, Natri HM, Weeks EM,
+Munson G, Kane M, Kang HY, Cui A, Ray JP, Eisenhaure TM, Collins RL, Dey K,
+Pfister H, Price AL, Epstein CB, Kundaje A, Xavier RJ, Daly MJ, Huang H,
+Finucane HK, Hacohen N, Lander ES, Engreitz JM. Genome-wide enhancer maps link
+risk variants to disease genes. Nature. 2021 Apr 7. doi:
+10.1038/s41586-021-03446-x. Epub ahead of print. PMID: 33828297.
+
+19: Nuñez JK, Chen J, Pommier GC, Cogan JZ, Replogle JM, Adriaens C, Ramadoss
+GN, Shi Q, Hung KL, Samelson AJ, Pogson AN, Kim JYS, Chung A, Leonetti MD, Chang
+HY, Kampmann M, Bernstein BE, Hovestadt V, Gilbert LA, Weissman JS. Genome-wide
+programmable transcriptional memory by CRISPR-based epigenome editing. Cell.
+2021 Apr 7:S0092-8674(21)00353-6. doi: 10.1016/j.cell.2021.03.025. Epub ahead of
+print. PMID: 33838111.
+
+20: Palou-Márquez G, Subirana I, Nonell L, Fernández-Sanlés A, Elosua R. DNA
+methylation and gene expression integration in cardiovascular disease. Clin
+Epigenetics. 2021 Apr 9;13(1):75. doi: 10.1186/s13148-021-01064-y. PMID:
+33836805; PMCID: PMC8034168.
+
+21: Li Y, Chen X, Lu C. The interplay between DNA and histone methylation:
+molecular mechanisms and disease implications. EMBO Rep. 2021 Apr 12:e51803.
+doi: 10.15252/embr.202051803. Epub ahead of print. PMID: 33844406.
+
+22: Kallak TK, Bränn E, Fransson E, Johansson Å, Lager S, Comasco E, Lyle R,
+Skalkidou A. DNA methylation in cord blood in association with prenatal
+depressive symptoms. Clin Epigenetics. 2021 Apr 12;13(1):78. doi:
+10.1186/s13148-021-01054-0. PMID: 33845866; PMCID: PMC8042709.

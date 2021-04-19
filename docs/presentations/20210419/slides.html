@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Journal club 20210419</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="my-remark.css">
+    <style>
+        table
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+count: false
+class: left, bottom
+
+# Journal club 
+## April 19, 2021
+&nbsp;
+
+&lt;img src="bristol-logo.png" width="20%"&gt;
+&lt;img src="ieu-logo.png" width="17%"&gt;
+---
+layout: true
+
+.logo[.mrcieu[
+MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;&nbsp;
+]]
+
+---
+
+## EWAS: Cognitive decline in prefrontal cortex
+
+> Hüls A, Robins C, Conneely KN, Edgar R, De Jager PL, Bennett DA, Wingo AP,
+> Epstein MP, Wingo TS. **Brain DNA Methylation Patterns in CLDN5 Associated With
+> Cognitive Decline**. Biol Psychiatry. 2021 Feb 3:S0006-3223(21)00084-6. doi:
+> 10.1016/j.biopsych.2021.01.015. Epub ahead of print. PMID: 33838873.
+
+--
+
+**sample size** 636 participants from the ROS (Religious Orders Study) and MAP (Rush Memory and Aging Project)
+
+--
+
+**tissue** dorsolateral prefrontal cortex
+
+--
+
+**variable of interest** 5 measures of cognitive decline -- episodic memory, perceptual orientation, perceptual speed, semantic memory, working memory
+
+--
+
+**methods** gene-based, multiple trait EWAS method called Gene Association with Multiple Traits (GAMuT) 
+
+--
+
+**result** association with methylation at *CLDN5*
+
+- mainly with episodic and working memory
+- *CLDN5* encodes a blood-brain barrier protein 
+- robust to cell-type adjustment (% neurons) 
+- robust to exclusion of brains with evidence of Alzheimer's disease
+
+---
+
+## EWAS: air pollution
+
+> C Chi G, ..., D Kaufman J. **Epigenome-wide analysis
+> of long-term air pollution exposure and DNA methylation in monocytes: results
+> from the Multi-Ethnic Study of Atherosclerosis**. Epigenetics. 2021 Apr 5:1-17.
+> doi: 10.1080/15592294.2021.1900028. Epub ahead of print. PMID: 33818294.
+
+--
+
+**tissue** blood monocytes
+
+--
+
+**sample size** 1207 from Multi-Ethnic Study of Atherosclerosis (MESA)
+
+--
+
+**variable of interest** PM<sub>2.5</sub>, NO<sub>x</sub>
+
+--
+
+**omics** DNA methylation (450k) and gene expression (HumanHT-12 Beadchips)
+
+--
+
+**results**
+- 3 CpG sites associated with PM<sub>2.5</sub> (cg05926640 strongest at *TOMM20*)
+- cg05926640 associated with *ARID4B*, *IRF2BP2*, and *TOMM20* expression
+- 1 CpG site associated with NO<sub>x</sub> (*ZNF347*)
+
+---
+
+## EWAS: neurodegenerative disease
+
+> Nabais MF, ..., McRae AF. **Meta-analysis of genome-wide DNA
+> methylation identifies shared associations across neurodegenerative disorders.**
+> Genome Biol. 2021 Mar 26;22(1):90. doi: 10.1186/s13059-021-02275-5. PMID:
+> 33771206; PMCID: PMC8004462.
+
+--
+
+**tissue** whole blood
+
+--
+
+**sample size** 5551 cases and 4343 controls (11 cohorts) 
+
+--
+
+**variable of interest** Alzheimer's disease, amyotrophic lateral sclerosis, and Parkinson's disease
+
+--
+
+**methods**
+- EWAS by OSCA which implements reference-free mixed-linear model MOMENT for accounting for known and unknown confounders 
+- [previously shown this approach to have higher out-of-sample classification accuracy](https://www.ncbi.nlm.nih.gov/pubmed/32140259)
+- meta-analyse across individual EWAS across diseases
+
+--
+
+**results** 
+- 3 CpG sites ALS, 3 CpG sites PD, none AD
+- 12 CpG site associations in meta-analyses of ALS, PD, AD
+
+---
+
+## EWAS: birthweight
+
+> Antoun E, ..., Lillycrop KA. **DNA methylation signatures in cord blood 
+> associated with birthweight are enriched for dmCpGs previously associated with 
+> maternal hypertension or pre-eclampsia, smoking and folic acid intake.** 
+> Epigenetics. 2021
+> Mar 30. doi: 10.1080/15592294.2021.1908706. Epub ahead of print. PMID: 33784941.
+
+--
+
+**sample size** 557 infants from the UK Pregnancies Better Eating and 483 from the Activity Trial and Southampton Women's Survey
+
+--
+
+**tissue** cord blood
+
+--
+
+**variable of interest** birthweight
+
+--
+
+**results**
+- 2911 associated CpG sites (FDR < 0.05)
+- 1206 on 450k array
+- 415 previously identified by [Küpers et al.](https://www.nature.com/articles/s41467-019-09671-3)
+- enrichments
+  - gestational hypertension/pre-eclampsia (14.51%, p=1.37E-255), 
+  - maternal smoking (7.71%, p=1.50E-57) 
+  - maternal plasma folate levels during pregnancy (0.33%, p=0.029).
+
+---
+
+## Epigenetics: evolution of DNA methylation in human brains
+
+> Jeong H, ..., Yi SV. **Evolution of DNA
+> methylation in the human brain**. Nat Commun. 2021 Apr 1;12(1):2021. doi:
+> 10.1038/s41467-021-21917-7. PMID: 33795684; PMCID: PMC8017017.
+
+--
+
+**data** DNA methylation profiles (whole genome bisulfite sequencing) of
+- human, chimp and rhesus macaque brains
+- neurons and oligodendrocytes from dorosolateral prefrontal cortex
+
+--
+
+**results**
+- CpH methylation in neuronal gene bodies higher in humans
+- CpG methylation lower in humans leading to higher gene expression
+- human-specific neuronal-oligodendrocyte differentially methylated regions enriched for genetic loci associated with schizophrenia
+
+---
+
+## Epigenetics: mapping enhancers to gene targets
+
+> Nasser J, ..., Engreitz JM. **Genome-wide enhancer maps link
+> risk variants to disease genes**. Nature. 2021 Apr 7. doi:
+> 10.1038/s41586-021-03446-x. Epub ahead of print. PMID: 33828297.
+
+--
+
+**data** chromatin profiles for 131 samples from 74 cell types/tissues/cell lines (ENCODE Project)
+
+--
+
+**results**
+- 270K enhancers
+- enhancers highly enriched for GWAS loci
+- 6.3M enhancer-gene connections 
+- only 19% of connections shared between pairs of samples
+- on average, each enhancer predicted to regulate 2.7 genes
+- and each gene was regulated by 2.8 enhancers
+- https://flekschas.github.io/enhancer-gene-vis/
+
+---
+
+## Epigenetics: innate immunity is regulated by an epigenetic switch
+
+> Clark HR, McKenney C, Livingston NM, Gershman A, Sajjan S, Chan IS, Ewald AJ,
+> Timp W, Wu B, Singh A, Regot S. **Epigenetically regulated digital signaling
+> defines epithelial innate immunity at the tissue level**. Nat Commun. 2021 Mar
+> 23;12(1):1836. doi: 10.1038/s41467-021-22070-x. PMID: 33758175; PMCID:
+> PMC7988009.
+
+--
+
+**methods** "single cell and single molecule approaches in mammary epithelial cells and primary organoids"
+
+--
+
+**results**
+- epithelial tissues respond to bacterial microbes by activating a subset of cells
+- activation depends DNA methylation of *TLR2* promoter ('all or nothing') 
+- number of activated cells depends on exposure
+
+---
+
+## Prediction: lead exposure model predicts Parkinson's disease risk
+
+> Paul KC, Horvath S, Del Rosario I, Bronstein JM, Ritz B. **DNA methylation
+> biomarker for cumulative lead exposure is associated with Parkinson's disease**.
+> Clin Epigenetics. 2021 Mar 22;13(1):59. doi: 10.1186/s13148-021-01051-3. PMID:
+> 33752746; PMCID: PMC7983295.
+
+--
+
+**lead models** previously published by [Colcino et al. (J Expo Sci Environ Epidemiol, 2019)](https://www.ncbi.nlm.nih.gov/pubmed/31636367/)
+
+--
+
+**data** DNA methylation 1528 PD patients, 1169 controls (publicly available from GEO)
+
+--
+
+**results** 
+- OR for PD of 1.89 per unit DNAm tibia-lead increase (95% CI 1.59, 2.24; p = 8.1E−13)
+- no association for DNAm model of patella-lead 
+
+
+---
+
+## Prediction: review of clinical epigenetics
+
+> Sarno F, et al. **Clinical epigenetics settings for cancer and cardiovascular
+> diseases: real-life applications of network medicine at the bedside**. Clin
+> Epigenetics. 2021 Mar 30;13(1):66. 
+
+--
+
+'Network medicine' is based on molecular perturbations of pathways.
+
+--
+
+> *"The historically limited success in the discovery of epigenetic biomarkers and epi-drugs using a reductionist approach calls for a paradigm shift toward network medicine (NM), which combines big data, advanced bioinformatic tools, network science, systems biology, artificial intelligence, and clinical biometric data to investigate the pathogenesis of complex diseases such as cancer and CVDs."*
+
+--
+
+> *"By its’ very nature, epigenetics is integrative of genetic networks."*
+
+---
+
+## Review continued
+
+- Epi-therapy in cancer
+
+--
+
+- Network medicine in the clinical setting of cancer prevention and diagnosis
+  - prevention, diagnosis, management and prognosis
+  - patient stratification using single-cell analyses
+  - treatment response vs resistance
+  - epi-therapy in cancer: can Network Medicine help physicians at the bedside?
+
+--
+
+- Epigenetics and risk stratification of CVDs: network medicine is on the horizon
+  - metabolic syndrome, diabetes, and foodome project
+  - coronary heart disease (CHD)
+  - pulmonary arterial hypertension (PAH)
+  - heart failure (HF) and heart transplantation (HTx)
+
+--
+
+- Repurposed drugs and epitherapy in CVDs: network medicine can improve the current reductionist approach to reach the goal of personalized treatments
+
+--
+
+- Concluding remarks network medicine’s role in clinical medicine, challenges and a pathway forward to the new of precision medicine
+
+
+
+
+
+
+
+
+
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script src="slideshow.js"></script>
+  </body>
+</html>      
+
