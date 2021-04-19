@@ -29,40 +29,6 @@ MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;&nbsp;
 
 ---
 
-## EWAS: Cognitive decline in prefrontal cortex
-
-> Hüls A, Robins C, Conneely KN, Edgar R, De Jager PL, Bennett DA, Wingo AP,
-> Epstein MP, Wingo TS. **Brain DNA Methylation Patterns in CLDN5 Associated With
-> Cognitive Decline**. Biol Psychiatry. 2021 Feb 3:S0006-3223(21)00084-6. doi:
-> 10.1016/j.biopsych.2021.01.015. Epub ahead of print. PMID: 33838873.
-
---
-
-**sample size** 636 participants from the ROS (Religious Orders Study) and MAP (Rush Memory and Aging Project)
-
---
-
-**tissue** dorsolateral prefrontal cortex
-
---
-
-**variable of interest** 5 measures of cognitive decline -- episodic memory, perceptual orientation, perceptual speed, semantic memory, working memory
-
---
-
-**methods** gene-based, multiple trait EWAS method called Gene Association with Multiple Traits (GAMuT) 
-
---
-
-**result** association with methylation at *CLDN5*
-
-- mainly with episodic and working memory
-- *CLDN5* encodes a blood-brain barrier protein 
-- robust to cell-type adjustment (% neurons) 
-- robust to exclusion of brains with evidence of Alzheimer's disease
-
----
-
 ## EWAS: air pollution
 
 > C Chi G, ..., D Kaufman J. **Epigenome-wide analysis
@@ -92,40 +58,8 @@ MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;&nbsp;
 - 3 CpG sites associated with PM<sub>2.5</sub> (cg05926640 strongest at *TOMM20*)
 - cg05926640 associated with *ARID4B*, *IRF2BP2*, and *TOMM20* expression
 - 1 CpG site associated with NO<sub>x</sub> (*ZNF347*)
-
----
-
-## EWAS: neurodegenerative disease
-
-> Nabais MF, ..., McRae AF. **Meta-analysis of genome-wide DNA
-> methylation identifies shared associations across neurodegenerative disorders.**
-> Genome Biol. 2021 Mar 26;22(1):90. doi: 10.1186/s13059-021-02275-5. PMID:
-> 33771206; PMCID: PMC8004462.
-
---
-
-**tissue** whole blood
-
---
-
-**sample size** 5551 cases and 4343 controls (11 cohorts) 
-
---
-
-**variable of interest** Alzheimer's disease, amyotrophic lateral sclerosis, and Parkinson's disease
-
---
-
-**methods**
-- EWAS by OSCA which implements reference-free mixed-linear model MOMENT for accounting for known and unknown confounders 
-- [previously shown this approach to have higher out-of-sample classification accuracy](https://www.ncbi.nlm.nih.gov/pubmed/32140259)
-- meta-analyse across individual EWAS across diseases
-
---
-
-**results** 
-- 3 CpG sites ALS, 3 CpG sites PD, none AD
-- 12 CpG site associations in meta-analyses of ALS, PD, AD
+- bumphunter used to identify 4 PM<sub>2.5</sub> DMRs, two of them also NO<sub>x</sub> DMRs 
+- does not appear to be any replication of previous studies
 
 ---
 
@@ -162,6 +96,77 @@ MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;&nbsp;
 
 ---
 
+## EWAS: Cognitive decline in prefrontal cortex
+
+> Hüls A, Robins C, Conneely KN, Edgar R, De Jager PL, Bennett DA, Wingo AP,
+> Epstein MP, Wingo TS. **Brain DNA Methylation Patterns in CLDN5 Associated With
+> Cognitive Decline**. Biol Psychiatry. 2021 Feb 3:S0006-3223(21)00084-6. doi:
+> 10.1016/j.biopsych.2021.01.015. Epub ahead of print. PMID: 33838873.
+
+--
+
+**sample size** n=636 participants from the ROS (Religious Orders Study) and MAP (Rush Memory and Aging Project)
+
+--
+
+**tissue** dorsolateral prefrontal cortex
+
+--
+
+**variable of interest** 5 measures of cognitive decline -- episodic memory, perceptual orientation, perceptual speed, semantic memory, working memory
+
+--
+
+**methods** gene-based, multiple-trait EWAS using [Gene Association with Multiple Traits (GAMuT)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4800053/)
+- nxn methylation similarity matrix, nxn trait similarity matrix
+- is methylation similarity matrix independent of trait similarity matrix?
+
+--
+
+**result** association with methylation at *CLDN5*
+
+- mainly with episodic and working memory
+- *CLDN5* encodes a blood-brain barrier protein 
+- robust to cell-type adjustment (% neurons) 
+- robust to exclusion of brains with evidence of Alzheimer's disease
+
+---
+
+## EWAS: neurodegenerative disease
+
+> Nabais MF, ..., McRae AF. **Meta-analysis of genome-wide DNA
+> methylation identifies shared associations across neurodegenerative disorders.**
+> Genome Biol. 2021 Mar 26;22(1):90. doi: 10.1186/s13059-021-02275-5. PMID:
+> 33771206; PMCID: PMC8004462.
+
+--
+
+**tissue** whole blood
+
+--
+
+**sample size** 5551 cases and 4343 controls (11 cohorts) 
+
+--
+
+**variable of interest** Alzheimer's disease, amyotrophic lateral sclerosis, and Parkinson's disease
+
+--
+
+**methods**
+- EWAS by OSCA which implements reference-free mixed-linear model MOMENT for accounting for known and unknown confounders 
+- [previously shown this approach to have higher out-of-sample classification accuracy](https://www.ncbi.nlm.nih.gov/pubmed/32140259)
+- meta-analyse across individual EWAS across diseases
+
+--
+
+**results** 
+- 3 CpG sites ALS, 3 CpG sites PD, none AD
+- 12 CpG site associations in meta-analyses of ALS, PD, AD
+
+
+---
+
 ## Epigenetics: evolution of DNA methylation in human brains
 
 > Jeong H, ..., Yi SV. **Evolution of DNA
@@ -195,10 +200,17 @@ MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;&nbsp;
 
 --
 
+**method** [Activity-by-contact model](https://pubmed.ncbi.nlm.nih.gov/31784727/) using chromatin (open chromatin and Hi-C contact maps) identifies links between enhancers and genes.  Previously validated using CRISPRi-FlowFISH to perturb enhancers.
+
+--
+
 **results**
+Used ABC model to identify
 - 270K enhancers
-- enhancers highly enriched for GWAS loci
 - 6.3M enhancer-gene connections 
+
+Characterising these
+- enhancers highly enriched for GWAS loci
 - only 19% of connections shared between pairs of samples
 - on average, each enhancer predicted to regulate 2.7 genes
 - and each gene was regulated by 2.8 enhancers
