@@ -1,0 +1,60 @@
+33940396
+33890633
+33890479
+33872906
+33862401
+
+
+Lead
+
+Childebayeva A, et al. Blood lead levels in Peruvian adults are associated with proximity to mining and DNA methylation. Environ Int. 2021 Apr 30;155:106587.
+
+ART
+
+Penova-Veselinovic B, et al. DNA methylation patterns within whole blood of adolescents born from assisted reproductive technology are not different from adolescents born from natural conception. Hum Reprod. 2021 Apr 23:deab078.
+
+Migration
+
+Chilunga FP, et al. DNA methylation as the link between migration and the major noncommunicable diseases: the RODAM study. Epigenomics. 2021 May;13(9):653-666.
+
+Phthalates
+
+Miura R, et al. Effect of prenatal exposure to phthalates on epigenome-wide DNA methylations in cord blood and implications for fetal growth: The Hokkaido Study on Environment and Children's Health. Sci Total Environ. 2021 Apr 16;783:147035.
+
+Residential greeness
+
+Xu R, et al. Residential surrounding greenness and DNA methylation: An epigenome-wide association study. Environ Int. 2021 Apr 13;154:106556. 
+
+
+33939316
+33931109
+33902726
+33883019
+33883000
+33867313
+
+
+BMI 
+
+Li G, et al. DNA methylome analysis identifies BMI-related epigenetic changes associated with non-small cell lung cancer susceptibility. Cancer Med. 2021 May 3. 
+
+Kidney function
+
+Breeze CE, et al. Epigenome-wide association study of kidney function identifies trans-ethnic and ethnic-specific loci. Genome Med. 2021 Apr 30;13(1):74.
+
+Alzheimer's disease
+
+Zhang L, et al. Sex-specific DNA methylation differences in Alzheimer's disease pathology. Acta Neuropathol Commun. 2021 Apr 26;9(1):77.
+
+
+Cognitive abilities
+
+Karlsson IK, et al. Epigenome-wide association study of level and change in cognitive abilities from midlife through late life. Clin Epigenetics. 2021 Apr 21;13(1):85. 
+
+Myocardial infarction and cardiovascular disease
+
+Fernández-Sanlés A, et al. DNA methylation biomarkers of myocardial infarction and cardiovascular disease. Clin Epigenetics. 2021 Apr 21;13(1):86.
+
+Covid-19
+
+Castro de Moura M, et al. Epigenome-wide association study of COVID-19 severity with respiratory failure. EBioMedicine. 2021 Apr;66:103339.

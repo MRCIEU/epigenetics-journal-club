@@ -1,0 +1,7 @@
+Villicaña S, Bell JT. Genetic impacts on DNA methylation: research findings
+and future perspectives. Genome Biol. 2021 Apr 30;22(1):127. doi:
+10.1186/s13059-021-02347-6. PMID: 33931130; PMCID: PMC8086086.
+
+Maden SK, Thompson RF, Hansen KD, Nellore A. Human methylome variation across
+Infinium 450K data on the Gene Expression Omnibus. NAR Genom Bioinform. 2021 Apr
+22;3(2):lqab025. doi: 10.1093/nargab/lqab025. PMID: 33937763; PMCID: PMC8061458.
