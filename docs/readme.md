@@ -2,7 +2,7 @@
 For more information contact [Matthew Suderman](matthew.suderman@bristol.ac.uk).
 
 [List of all papers since 2015](https://raw.githubusercontent.com/MRCIEU/epigenetics-journal-club/main/data/papers.csv)
-(summary statistics for all EWAS publications can be viewed on the [EWAS Catalog](http://ewascatalog.org/)).
+(summary statistics for all EWAS publications can be accessed from the [EWAS Catalog](http://ewascatalog.org/)).
 
 * **2021** [05-10](presentations/20210510/slides.pptx)
 [04-19](presentations/20210419/slides.html)
