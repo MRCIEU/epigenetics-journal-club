@@ -1,4 +1,4 @@
-## Epigenetics journal club presentations at the [Integrative Epidemiology Unit at the University of Bristol](http://www.bristol.ac.uk/integrative-epidemiology/research/epigenetics/)
+## Epigenetics journal club at the [UoB Integrative Epidemiology Unit](http://www.bristol.ac.uk/integrative-epidemiology/research/epigenetics/)
 For more information, contact Matthew Suderman (matthew.suderman@bristol.ac.uk).
 
 [List of all papers since 2015](https://raw.githubusercontent.com/MRCIEU/epigenetics-journal-club/main/data/papers.csv)
