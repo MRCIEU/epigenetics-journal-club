@@ -1,0 +1,38 @@
+COVID-19 severity
+Castro de Moura M, et al. Epigenome-wide association study of COVID-19 severity with respiratory failure. EBioMedicine. 2021 Apr;66:103339.
+
+COVID-19 outcomes
+Balnis J, et al. Blood DNA methylation and COVID-19 outcomes. Clin Epigenetics. 2021 May 25;13(1):118. 
+
+
+
+Hippocampal abnormalities in PTSD
+Ensink JBM, et al. Differential DNA Methylation is associated with Hippocampal Abnormalities in Pediatric Posttraumatic Stress Disorder. Biol Psychiatry Cogn Neurosci Neuroimaging. 2021 May 5:S2451-9022(21)00123-3. 
+
+Juvenile systemic sclerosis and localized scleroderma
+Coit P, et al. DNA methylation patterns in juvenile systemic sclerosis and localized scleroderma. Clin Immunol. 2021 May 13;228:108756.
+
+PARylation in T2D
+Zampieri M, et al. Increased PARylation impacts the DNA methylation process in type 2 diabetes mellitus. Clin Epigenetics. 2021 May 17;13(1):114.
+
+
+
+Lung cancer risk
+Zhao N, et al. Epigenome-wide scan identifies differentially methylated regions for lung cancer using pre-diagnostic peripheral blood. Epigenetics. 2021 May 19:1-13.
+
+Cardiovascular risk
+Gao Y, et al. Genome-wide analysis of DNA methylation and risk of cardiovascular disease in a Chinese population. BMC Cardiovasc Disord. 2021 May 12;21(1):240. 
+
+
+
+Coffee and tea
+Karabegović I, et al. Epigenome-wide association meta-analysis of DNA methylation with coffee and tea consumption. Nat Commun. 2021 May 14;12(1):2830.
+
+Alcohol consumption
+Lu M, et al. Genome-wide associations between alcohol consumption and blood DNA methylation: evidence from twin study. Epigenomics. 2021 Jun;13(12):939-951. 
+
+
+Sex differences in placenta
+Inkster AM, et al. A cross-cohort analysis of autosomal DNA methylation sex differences in the term placenta. Biol Sex Differ. 2021 May 27;12(1):38. 
+
+

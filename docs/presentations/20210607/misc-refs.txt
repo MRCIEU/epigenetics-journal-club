@@ -1,0 +1,17 @@
+Omics of hypertension and the kidney
+Eales JM, et al. Uncovering genetic mechanisms of hypertension through multi-omic analysis of the kidney. Nat Genet. 2021 May;53(5):630-637. 
+
+Single-cell epigenetics
+Chiou J, et al. Interpreting type 1 diabetes risk with genetics and single-cell epigenomics. Nature. 2021 May 19. 
+
+PWAS of Covid-19
+Filbin MR, et al. Longitudinal proteomic analysis of severe COVID-19 reveals survival-associated signatures, tissue-specific cell death, and cell-cell interactions. Cell Rep Med. 2021 May 18;2(5):100287.
+
+PWAS of metabolic syndrome
+Elhadad MA, et al. Metabolic syndrome and the plasma proteome: from association to causation. Cardiovasc Diabetol. 2021 May 20;20(1):111.
+
+PWAS of cardiovascular fitness
+Robbins JM, et al. Human plasma proteomic profiles indicative of cardiorespiratory fitness. Nat Metab. 2021 May 27. 
+
+Epigenetics 
+Buitrago D, et al. Impact of DNA methylation on 3D genome structure. Nat Commun. 2021 May 28;12(1):3243. 

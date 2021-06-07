@@ -1,0 +1,5 @@
+Banerjee S, et al. Tejaas: reverse regression increases power for detecting trans-eQTLs. Genome Biol. 2021 May 6;22(1):142. 
+
+Buchka S, et al. On the optimistic performance evaluation of newly introduced bioinformatic methods. Genome Biol. 2021 May 11;22(1):152.
+
+Talukder A, Barham C, Li X, Hu H. Interpretation of deep learning in genomics and epigenomics. Brief Bioinform. 2021 May 20;22(3):bbaa177. 
