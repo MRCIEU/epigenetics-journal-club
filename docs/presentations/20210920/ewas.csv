@@ -1,0 +1,12 @@
+﻿pmid,journal,variable,sample,tissue,finding
+34515027,Elife,CHD at 10 years followup,982 Kadoori study ,blood,25 sites
+34516295,Environ Health Perspect,9 pesticides,1170 Agricultural health study,blood,162 sites
+34425644,Environ Int,polybrominated diphenyl ethers,397 women,blood,15 (1 site breast cancer in blood)
+34482817,BMC Genom Data,preterm birth in last 3-5 years,182 mothers,blood,null
+34461807,Epigenetics,diet (balanced/veg/starch),573 women EDEN,blood,null
+34427971,Aging Cell,methylation variability with age,493 twins,blood,"3084 sites in males (37% replicated), 0 in females"
+34415308,Hum Mol Genet,mitochondrial copy number,6182 (5 cohorts),blood,21 sites
+34429407,Nat Commun,maternal smoking,1700 PACE,placenta,443 sites (only 2 in cord)
+34523531,Environ Pollut,maternal synthetic phenols,202 EDEN,placenta,596 sites
+34507616,Clin Epigenetics,prenatal risk (low/physical/psychological),542 preterm infants,buccal cells,2 sites; 15 with cumulative risk
+34473906,Pediatr Pulmonol,infant RSV immunoprophylaxis,429 preterm infants,nasal epithelia at age 6,3 sites
