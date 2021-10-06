@@ -1,0 +1,13 @@
+pmid,source,variable,tissue,population,associations,EC,title
+34585950,Epigenomics,depression,placenta,301 pregnancies,16,yes,Impact of depression and stress on placental DNA methylation in ethnically diverse pregnant women.
+34585950,Epigenomics,stress,placenta,301 pregnancies,2,yes,Impact of depression and stress on placental DNA methylation in ethnically diverse pregnant women.
+34569420,Epigenetics,sex,cord blood,179,2119,yes,"Associations between infant sex and DNA methylation across umbilical cord blood, artery, and placenta samples."
+34569420,Epigenetics,sex,placenta,229,2281,yes,"Associations between infant sex and DNA methylation across umbilical cord blood, artery, and placenta samples."
+34569420,Epigenetics,sex,umbilical artery,229,3405,yes,"Associations between infant sex and DNA methylation across umbilical cord blood, artery, and placenta samples."
+34529553,Epigenetics,endocrine disrupting chemicals in maternal blood,cord blood,142 in the Duisberg Birth Cohort Study,32,yes,Prenatal exposure to endocrine disrupting chemicals is associated with altered DNA methylation in cord blood.
+34583751,Clin Epigenetics,vaping,saliva,117 smokers;117 non-smokers;116 non-smoking vapers,null ,yes,Investigating the DNA methylation profile of e-cigarette use.
+34541665,J Child Psychol Psychiatry,sex differences in depression,blood (MBD-seq),487 age 9-17,"""a substantial number"" in monocytes",no,A methylation study implicates the rewiring of brain neural circuits during puberty in the emergence of sex differences in depression symptoms.
+34561420,Transl Psychiatry,conduct disorder,saliva,51 cases; 59 controls,1 DMR,yes,SLC25A24 gene methylation and gray matter volume in females with and without conduct disorder: an exploratory epigenetic neuroimaging study.
+34556110,BMC Med Genomics,waist circumference,blood,210 from 73 families (STANISLAS Family Study),1,yes,Epigenome-wide association study detects a novel loci associated with central obesity in healthy subjects.
+34556110,BMC Med Genomics,waist-to-hip ratio,blood,210 from 73 families (STANISLAS Family Study),null ,yes,Epigenome-wide association study detects a novel loci associated with central obesity in healthy subjects.
+34584077,Nat Commun,MZ twinning,blood,3046 MZ vs 3396 DZ from six cohorts,243,yes,Identical twins carry a persistent epigenetic signature of early genome programming.
