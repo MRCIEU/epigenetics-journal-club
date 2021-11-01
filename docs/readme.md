@@ -6,7 +6,11 @@ For more information, contact Matthew Suderman (matthew.suderman@bristol.ac.uk).
 
 **Presentation slides by date**
 
-* **2021** [09-20](presentations/20210920/slides.pptx)
+* **2021** 
+[11-01](presentations/20211101/slides.pptx)
+[10-18](presentations/20211018/slides.pptx)
+[10-04](presentations/20211004/slides.pptx)
+[09-20](presentations/20210920/slides.pptx)
 [07-26](presentations/20210726/slides.pptx)
 [06-28](presentations/20210628/slides.pptx)
 [06-07](presentations/20210607/slides.pptx)
