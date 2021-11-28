@@ -1,0 +1,10 @@
+﻿PMID,Journal,Variable,Cell type,Sample,Associations
+34798907,Clin Epigenetics,"metals (As, Ba, Cd, Cr, Cs, Cu, Hg, Mg, Mn, Pb, Se, and Zn) measured in maternal blood",cord blood,361 (Project Viva),2 (p < 0.05 at age 6-10)
+34750344,Transl Psychiatry,maternal depression,cord blood,248 (South African Drakenstein Child Health Study),3 sites
+34717175,Environ Int,air pollution (PM2.5 and 13 particulates),blood,695 men mean age 75 (Normative Aging Study),2717 (PM2.5); 3173 (Pb); etc.
+34809630,Respir Res,"pulmonary function (FEV1,FVC)",blood,60 middle age MZ twin pairs Qingdao Twin Repository,null (112 at p<1e-4)
+34774679,Genomics,type 2 diabetes; fasting plasma glucose; hbA1c,blood,316 twin pairs (Chinese National Twin Registry),1 (TXNIP) with FPG and HbA1c
+34738878,Epigenetics,cortical volume,blood (6 years before MRI),672 (Generation Scotland),4 sites
+34732242,Clin Epigenetics,sex,skeletal muscle,369 (Gene SMART; FUSION; GSE38291),57K sites
+34732130,BMC Genomics,physical activity and cardiovascular disease,blood monocytes,1065 (MESA),23 (3 mediators)
+34775485,Neuropsychopharmacology,alcohol use disorder,"anterior cingulate cortex (ACC), Brodmann Area 9 (BA9), caudate nucleus (CN), ventral striatum (VS), and putamen (PUT) ",111,2 (CN); 18 (VS)
