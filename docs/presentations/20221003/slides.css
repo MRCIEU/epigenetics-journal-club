@@ -1,0 +1,518 @@
+/*
+created from uol.css and uol-fonts.css from 
+https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/ 
+*/
+
+:root {
+/* Bristol 205,92,98 */
+  --bristol-red: #CD5C62;
+  --bristol-grey: #898989;
+  --bristol-brown: #8A7967;
+/* Corporate */
+  --corporate-red: #B92034;
+  --corporate-grey: #515B64;
+  --white: #FFFFFF;
+/* Brights */
+  --vibrant-red: #EE3130;
+  --orange: #EB6F1B;
+  --warm-yellow: #EBA411;
+  --vc-green: #093323;
+  --dark-green: #004D27;
+  --mid-green: #4A7729;
+  --acid-green: #B0AE24;
+  --dark-blue: #002B4A;
+  --mid-blue: #00508C;
+  --light-blue: #8CBAD4;
+  --mauve-blue: #3A5DAE;
+/* Neutrals */
+  --dark-warm-grey: #706359;
+  --mid-warm-grey: #ACA6A2;
+  --light-warm-grey: #D4D0CA;
+  --black: #231F20;
+  --mid-cool-grey: #73808A;
+  --light-cool-grey: #C6C7C9;
+  --digi-gold: #B49243;
+  --light-digi-gold: #C8B182;
+/* CMYK Pop Process */
+  --magenta: #EC008C;
+  --bright-yellow: #FFF200;
+  --cyan: #00AEEF;
+  --royal-blue: #2E3192;
+/* Metallic Finish */
+  --metallic-gold: #85714D;
+  --metallic-gold-70p: #C7B99E;
+  --metallic-silver: #8A8D8F;
+  --metallic-silver-70p: #B1B3B4;
+/* Main and accent color */
+  --main: var(--bristol-red);
+  --accent: var(--light-warm-grey);
+  --text: var(--black);
+  --text-inverse: var(--light-warm-grey);
+}
+
+:root{
+  --size-tiny: 8px;
+  --size-scriptsize: 10px;
+  --size-footnotesize: 12px;
+  --size-small: 14px;
+  --size-normalsize: 16px;
+  --size-large: 18px;
+  --size-Large: 20px;
+  --size-LARGE: 22px;
+  --size-huge: 28px;
+  --size-Huge: 30px;
+  --size-references: 11px;
+}
+
+.remark-slide-content,
+.remark-slide-content p,
+.remark-slide-content li p {
+  color: var(--text);
+  font-size: var(--size-normalsize);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--main);
+  border: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: var(--size-LARGE);
+}
+
+h2 {
+  font-size: var(--size-Large);
+}
+
+h3 {
+  font-size: var(--size-large);
+}
+
+a, a > code, a:visited {
+  color: var(--main);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  padding-right: 15%;
+  font-size: var(--size-footnotesize);
+}
+
+.remark-code-line-highlighted {
+  background-color: var(--bright-yellow);
+}
+
+.remark-code {
+  border-radius: 5px;
+  font-size: var(--size-scriptsize);
+}
+
+.remark-inline-code {
+  font-size: var(--size-normalsize);
+}
+
+.inverse {
+  background-image: none;
+  background-color: var(--main);
+  color: var(--text-inverse);
+}
+
+.inverse h1,
+.inverse h2,
+.inverse h3,
+.inverse h4,
+.inverse h5,
+.inverse h6 {
+  color: var(--text-inverse);
+}
+
+.pull-left {
+  float: left;
+  width: 45%;
+}
+
+.pull-right {
+  float: right;
+  width: 45%;
+}
+
+.pull-right + * {
+  clear: both;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: solid 5px var(--accent);
+  padding-left: 1em;
+  color: var(--main);
+}
+
+.remark-slide table {
+  margin: auto;
+  border-top: 1px solid var(--light-warm-grey);
+  border-bottom: 1px solid var(--light-warm-grey);
+}
+
+.remark-slide table thead th {
+  border-bottom: 1px solid var(--light-warm-grey);
+}
+
+th, td {
+  padding: 5px;
+}
+
+.remark-slide thead,
+.remark-slide tfoot,
+.remark-slide tr:nth-child(even) {
+  background: var(--white);
+}
+
+@page {
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
+
+.remark-slide-number {
+  font-size: var(--size-footnotesize);
+  color: var(--text);
+}
+
+.title-slide .remark-slide-number,
+.inverse .remark-slide-number {
+  display: none;
+}
+
+.mjx-chtml {
+  font-size: var(--size-normalsize) !important;
+}
+
+
+.title-slide {
+  background: var(--white);
+}
+
+.title-slide h1 {
+  padding-top: 33%;
+  text-align: left;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
+}
+
+.title-slide h2, h3, h4, h5, h6 {
+  text-align: left;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+/*
+Extra classes for size and color
+*/
+
+.bristol-red {
+  color: var(--bristol-red);
+}
+.bristol-grey {
+  color: var(--bristol-grey);
+}
+
+.corporate-red {
+  color: var(--corporate-red);
+}
+
+.corporate-grey {
+  color: var(--corporate-grey);
+}
+
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
+.vibrant-red {
+  color: var(--vibrant-red);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.warm-yellow {
+  color: var(--warm-yellow);
+}
+
+.vc-green {
+  color: var(--vc-green);
+}
+
+.dark-green {
+  color: var(--dark-green);
+}
+
+.mid-green {
+  color: var(--mid-green);
+}
+
+.acid-green {
+  color: var(--acid-green);
+}
+
+.dark-blue {
+  color: var(--bark-blue);
+}
+
+.mid-blue {
+  color: var(--mid-blue);
+}
+
+.light-blue {
+  color: var(--light-blue);
+}
+
+.mauve-blue {
+  color: var(--mauve-blue);
+}
+
+.dark-warm-grey {
+  color: var(--dark-warm-grey);
+}
+
+.mid-warm-grey {
+  color: var(--mid-warm-grey);
+}
+
+.light-warm-grey {
+  color: var(--light-warm-grey);
+}
+
+.black {
+  color: var(--black);
+}
+
+.mid-cool-grey {
+  color: var(--mid-cool-grey);
+}
+
+.light-cool-grey {
+  color: var(--light-cool-grey);
+}
+
+.digi-gold {
+  color: var(--digi-gold);
+}
+
+.light-digi-gold {
+  color: var(--light-digi-gold);
+}
+
+.magenta {
+  color: var(--magenta);
+}
+
+.bright-yellow {
+  color: var(--bright-yellow);
+}
+
+.cyan {
+  color: var(--cyan);
+}
+
+.royal-blue {
+  color: var(--royal-blue);
+}
+
+.metallic-gold {
+  color: var(--metallic-gold);
+}
+
+.metallic-gold-70p {
+  color: var(--metallic-gold-70p);
+}
+
+.metallic-silver {
+  color: var(--metallic-silver);
+}
+
+.metallic-silver-70p {
+  color: var(--metallic-silver-70p);
+}
+
+.main {
+  color: var(--main);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.text {
+  color: var(--text);
+}
+
+.text-inverse {
+  color: var(--text-inverse);
+}
+
+.tiny {
+  font-size: var(--size-tiny);
+}
+
+.scriptsize {
+  font-size: var(--size-scriptsize);
+}
+
+.footnotesize {
+  font-size: var(--size-footnotesize);
+}
+
+.small {
+  font-size: var(--size-small);
+}
+
+.normalsize {
+  font-size: var(--size-normalsize);
+}
+
+.large {
+  font-size: var(--size-large);
+}
+
+.Large {
+  font-size: var(--size-Large);
+}
+
+.LARGE {
+  font-size: var(--size-LARGE);
+}
+
+.huge {
+  font-size: var(--size-huge);
+}
+
+.Huge {
+  font-size: var(--size-Huge);
+}
+
+.references {
+  font-size: var(--size-references);
+}
+
+
+/* Font family  settings */
+
+@import url("https://fonts.googleapis.com/css?family=Hind|Lusitana|Inconsolata");
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+  font-family: "Hind", sans-serif;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+
+
+/* Various left and right split columns*/
+
+.pull-left-70 { float: left; width: 66.5%; }
+.pull-right-30 { float: right; width: 28.5%; }
+.pull-right-30 + * { clear: both; }
+
+.pull-left-60 { float: left; width: 57%; }
+.pull-right-40 { float: right; width: 38%; }
+.pull-right-40 + * { clear: both; }
+
+.pull-left-50 { float: left; width: 47.5%; }
+.pull-right-50 { float: right; width: 47.5%; }
+.pull-right-50 + * { clear: both; }
+
+.pull-left-40 { float: left; width: 38%; }
+.pull-right-60 { float: right; width: 57%; }
+.pull-right-60 + * { clear: both; }
+
+.pull-left-30 { float: left; width: 28.5%; }
+.pull-right-70 { float: right; width: 66.5%; }
+.pull-right-70 + * { clear: both; }
+
+
+/* headers and footers */
+
+
+.header {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  width: 90%;
+  line-height: 0.7;
+}
+
+.align-left { float: left; text-align: left; width: 45%; } 
+.align-right { float: right; text-align: right; width: 45%; } 
+
+.footer {
+  position: absolute;
+  left: 5%;
+  bottom: 10px;
+  width: 90%; /* vw */
+  line-height: 0.7;
+}
+
+
+
+
+/* logo */
+.logo {
+	position: absolute;
+	right: 0%;
+	bottom: 0%;
+	width: 100%;
+	height: 32pt;
+	background-color: var(--bristol-brown);
+	vertical-align: middle;
+}
+.mrcieu {
+	color: #000000;
+	text-align: left;
+	font: bold medium Arial, sans-serif;
+}
+
+h1 { color: #21677E; }
+
+th { text-align: left; }
+
+.border { 
+	border: 1px solid black;
+	border-collapse: collapse; 
+}
+.striped tr:nth-child(even) {background-color: #e2e2e2;}

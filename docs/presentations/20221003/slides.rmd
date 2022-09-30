@@ -1,0 +1,75 @@
+---
+title: "Epigenetic Epidemiology Update"
+author: "Matthew Suderman"
+date: "Oct 3, 2022"
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    css: ["default", "slides.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+    seal: false
+---
+
+```{r, include=FALSE, cache=FALSE}
+knitr::opts_chunk$set()
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
+
+---
+
+class: title-slide
+
+<img src="bristol-logo.png" width="20%"></img>
+<img src="ieu-logo.png" width="17%"></img>
+
+
+# `r rmarkdown::metadata$title`
+
+`r rmarkdown::metadata$author`
+
+`r rmarkdown::metadata$date`
+
+
+---
+
+layout: true
+
+.logo[.mrcieu[
+&nbsp;&nbsp;&nbsp;MRC Integrative Epidemiology Unit&nbsp;&nbsp;&nbsp;
+]]
+
+---
+
+## EWAS
+
+.striped[
+|     pmid|journal                 |variable                                      |tissue                                                      |n                          |cohort                  |assocs                 |notes                                                                                                               |
+|--------:|:-----------------------|:---------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------|
+| 33566097|Genome Biol Evol        |altitude                                      |blood                                                       |113                        |Peruvian Quechua        |2                      |enrichment  in hypoxia-inducible factors, red blood cell production, etc.                                           |
+| 33593402|Clin Epigenetics        |cigarette smoking                             |blood                                                       |1407                       |NSHD;NCDS;BCS70;TwinsUK |952                    |526 on EPIC array only; 486 of these replicated; 37 persistent after cessation                                      |
+]
+
+
+---
+
+## Columns
+
+.pull-left-30[
+Using `.pull-left-30[...]`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+]
+.pull-right-70[
+Using `.pull-right-70[...]`
+
+50-50, 40-60, 60-40 and 70-30 splits are possible.
+
+]
+
+
