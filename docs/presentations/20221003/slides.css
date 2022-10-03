@@ -3,11 +3,16 @@ created from uol.css and uol-fonts.css from
 https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/ 
 */
 
+/* colors */
+
 :root {
 /* Bristol 205,92,98 */
   --bristol-red: #CD5C62;
+  --bristol-dark: #9c3035;
   --bristol-grey: #898989;
   --bristol-brown: #8A7967;
+  --wheat: #fbf0d0;
+  --elm: #21677E;
 /* Corporate */
   --corporate-red: #B92034;
   --corporate-grey: #515B64;
@@ -28,6 +33,7 @@ https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/
   --dark-warm-grey: #706359;
   --mid-warm-grey: #ACA6A2;
   --light-warm-grey: #D4D0CA;
+  --light-grey: #e2e2e2;
   --black: #231F20;
   --mid-cool-grey: #73808A;
   --light-cool-grey: #C6C7C9;
@@ -44,191 +50,14 @@ https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/
   --metallic-silver: #8A8D8F;
   --metallic-silver-70p: #B1B3B4;
 /* Main and accent color */
-  --main: var(--bristol-red);
+  --main: var(--bristol-brown);
   --accent: var(--light-warm-grey);
   --text: var(--black);
-  --text-inverse: var(--light-warm-grey);
+  --text-inverse: var(--light-grey);
+  --header: var(--elm);
+  --background: #FFFFFF;
 }
 
-:root{
-  --size-tiny: 8px;
-  --size-scriptsize: 10px;
-  --size-footnotesize: 12px;
-  --size-small: 14px;
-  --size-normalsize: 16px;
-  --size-large: 18px;
-  --size-Large: 20px;
-  --size-LARGE: 22px;
-  --size-huge: 28px;
-  --size-Huge: 30px;
-  --size-references: 11px;
-}
-
-.remark-slide-content,
-.remark-slide-content p,
-.remark-slide-content li p {
-  color: var(--text);
-  font-size: var(--size-normalsize);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: var(--main);
-  border: 0px;
-  margin: 0px;
-}
-
-h1 {
-  font-size: var(--size-LARGE);
-}
-
-h2 {
-  font-size: var(--size-Large);
-}
-
-h3 {
-  font-size: var(--size-large);
-}
-
-a, a > code, a:visited {
-  color: var(--main);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.footnote {
-  position: absolute;
-  bottom: 0%;
-  left: 15%;
-  padding-right: 15%;
-  font-size: var(--size-footnotesize);
-}
-
-.remark-code-line-highlighted {
-  background-color: var(--bright-yellow);
-}
-
-.remark-code {
-  border-radius: 5px;
-  font-size: var(--size-scriptsize);
-}
-
-.remark-inline-code {
-  font-size: var(--size-normalsize);
-}
-
-.inverse {
-  background-image: none;
-  background-color: var(--main);
-  color: var(--text-inverse);
-}
-
-.inverse h1,
-.inverse h2,
-.inverse h3,
-.inverse h4,
-.inverse h5,
-.inverse h6 {
-  color: var(--text-inverse);
-}
-
-.pull-left {
-  float: left;
-  width: 45%;
-}
-
-.pull-right {
-  float: right;
-  width: 45%;
-}
-
-.pull-right + * {
-  clear: both;
-}
-
-img,
-video,
-iframe {
-  max-width: 100%;
-}
-
-blockquote {
-  border-left: solid 5px var(--accent);
-  padding-left: 1em;
-  color: var(--main);
-}
-
-.remark-slide table {
-  margin: auto;
-  border-top: 1px solid var(--light-warm-grey);
-  border-bottom: 1px solid var(--light-warm-grey);
-}
-
-.remark-slide table thead th {
-  border-bottom: 1px solid var(--light-warm-grey);
-}
-
-th, td {
-  padding: 5px;
-}
-
-.remark-slide thead,
-.remark-slide tfoot,
-.remark-slide tr:nth-child(even) {
-  background: var(--white);
-}
-
-@page {
-  margin: 0;
-}
-
-@media print {
-  .remark-slide-scaler {
-    width: 100% !important;
-    height: 100% !important;
-    transform: scale(1) !important;
-    top: 0 !important;
-    left: 0 !important;
-  }
-}
-
-.remark-slide-number {
-  font-size: var(--size-footnotesize);
-  color: var(--text);
-}
-
-.title-slide .remark-slide-number,
-.inverse .remark-slide-number {
-  display: none;
-}
-
-.mjx-chtml {
-  font-size: var(--size-normalsize) !important;
-}
-
-
-.title-slide {
-  background: var(--white);
-}
-
-.title-slide h1 {
-  padding-top: 33%;
-  text-align: left;
-  padding-bottom: 3%;
-  margin-bottom: 3%;
-}
-
-.title-slide h2, h3, h4, h5, h6 {
-  text-align: left;
-  padding-top: 0%;
-  margin-top: 0%;
-}
-
-/*
-Extra classes for size and color
-*/
 
 .bristol-red {
   color: var(--bristol-red);
@@ -377,6 +206,22 @@ Extra classes for size and color
   color: var(--text-inverse);
 }
 
+/* font sizes */
+
+:root{
+  --size-tiny: 10px;
+  --size-scriptsize: 12px;
+  --size-footnotesize: 14px;
+  --size-small: 16px;
+  --size-normalsize: 18px;
+  --size-large: 20px;
+  --size-Large: 22px;
+  --size-LARGE: 24px;
+  --size-huge: 30px;
+  --size-Huge: 32px;
+  --size-references: 14px;
+}
+
 .tiny {
   font-size: var(--size-tiny);
 }
@@ -421,29 +266,223 @@ Extra classes for size and color
   font-size: var(--size-references);
 }
 
+h1 {
+  font-size: var(--size-LARGE);
+}
 
-/* Font family  settings */
+h2 {
+  font-size: var(--size-Large);
+}
+
+h3 {
+  font-size: var(--size-large);
+}
+
+h4 {
+  font-size: var(--size-normalsize);
+}
+
+h5 {
+  font-size: var(--size-small);
+}
+
+h6 {
+  font-size: var(--size-footnotesize);
+}
+/* fonts */
 
 @import url("https://fonts.googleapis.com/css?family=Hind|Lusitana|Inconsolata");
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
+/* defaults */
+
 body {
   font-family: "Hind", sans-serif;
 }
 
-
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
+  color: var(--header);
+  border: 0px;
+  margin: 0px;
 }
 
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+h3, h4, h5, h6 {
+  color: var(--bristol-dark);
+}
+
+/* slide elements */
+
+.remark-slide-content,
+.remark-slide-content p,
+.remark-slide-content li p {
+  color: var(--text);
+  background: var(--background);
+  font-size: var(--size-normalsize);
+}
+
+blockquote {
+  border-left: solid 5px var(--accent);
+  padding-left: 1em;
+  color: var(--main);
+}
+
+a, a > code, a:visited {
+  color: var(--main);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+
+/* slide numbering */
+
+.remark-slide-number {
+  font-size: var(--size-normalsize);
+  color: var(--text);
+}
+
+/* tables */
+
+.remark-slide table {
+  margin: auto;
+  border-top: 1px solid var(--light-warm-grey);
+  border-bottom: 1px solid var(--light-warm-grey);
+}
+
+.remark-slide table thead th {
+  border-bottom: 1px solid var(--light-warm-grey);
+}
+
+.remark-slide thead,
+.remark-slide tfoot,
+.remark-slide tr:nth-child(even) {
+  background: var(--background);
+}
+
+.striped tr:nth-child(even) {background-color: #eaeaea;}
+
+th, td {
+  padding: 5px;
+}
+
+
+th { 
+  text-align: left; 
+}
+
+.border { 
+	border: 1px solid black;
+	border-collapse: collapse; 
+}
 
 
 
-/* Various left and right split columns*/
+/* code */
+
+.remark-code-line-highlighted {
+  background-color: var(--bright-yellow);
+}
+
+.remark-code {
+  border-radius: 5px;
+  font-size: var(--size-scriptsize);
+}
+
+.remark-inline-code {
+  font-size: var(--size-normalsize);
+}
+
+.remark-code, .remark-inline-code { 
+  font-family: 'Ubuntu Mono'; 
+}
+
+
+/* slides with inverted color */
+
+.inverse {
+  background-image: none;
+  background-color: var(--main);
+  color: var(--text-inverse);
+}
+
+.inverse h1,
+.inverse h2,
+.inverse h3,
+.inverse h4,
+.inverse h5,
+.inverse h6 {
+  color: var(--text-inverse);
+}
+
+
+
+/* title slide */
+
+.title-slide {
+  background: var(--background);
+}
+
+.title-slide h1 {
+  padding-top: 33%;
+  text-align: left;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
+}
+
+.title-slide h2, h3, h4, h5, h6 {
+  text-align: left;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+.title-slide .remark-slide-number,
+.inverse .remark-slide-number {
+  display: none;
+}
+
+.mjx-chtml {
+  font-size: var(--size-normalsize) !important;
+}
+
+
+/* footnotes */
+
+.footnote {
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  padding-right: 15%;
+  font-size: var(--size-footnotesize);
+}
+
+
+/* columns */
+
+.pull-left {
+  float: left;
+  width: 45%;
+}
+
+.pull-right {
+  float: right;
+  width: 45%;
+}
+
+.pull-right + * {
+  clear: both;
+}
 
 .pull-left-70 { float: left; width: 66.5%; }
 .pull-right-30 { float: right; width: 28.5%; }
@@ -465,54 +504,76 @@ h1, h2, h3 {
 .pull-right-70 { float: right; width: 66.5%; }
 .pull-right-70 + * { clear: both; }
 
-
 /* headers and footers */
 
 
 .header {
   position: absolute;
-  top: 10px;
-  left: 5%;
-  width: 90%;
-  line-height: 0.7;
+  left: 0%;
+  top: 0%;
+  width: 100%; 
+  padding: 0px;
+  vertical-align: middle;
+  margin: 0px;
 }
-
-.align-left { float: left; text-align: left; width: 45%; } 
-.align-right { float: right; text-align: right; width: 45%; } 
 
 .footer {
   position: absolute;
-  left: 5%;
-  bottom: 10px;
-  width: 90%; /* vw */
-  line-height: 0.7;
+  left: 0%;
+  bottom: 0%;
+  width: 100%; 
+  padding: 0px;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+.header .align-left, .footer .align-left { float: left; text-align: left; width: 45%; } 
+.header .align-right, .footer .align-right { float: right; text-align: right; width: 45%; } 
+
+
+/* mrcieu footer */
+.footer {
+  background-color: var(--bristol-brown);
+  color: var(--light-grey);
+  text-align: left;
+  font: bold medium Arial, sans-serif;
+  font-size: var(--size-normalsize);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.remark-slide-number {
+  color: var(--light-grey);
+  font: bold medium Arial, sans-serif;
+  font-size: var(--size-normalsize);
+  padding: 0px;
+  margin-bottom: -5px;
+  margin-right: 0px;
+}
+
+.running {
+  position: absolute;
+  left: 8%;
+  top: 5px;
+  width: 95%; 
+  vertical-align: middle;
+  color: var(--header);
+  font-weight: bold;
 }
 
 
-
-
-/* logo */
-.logo {
-	position: absolute;
-	right: 0%;
-	bottom: 0%;
-	width: 100%;
-	height: 32pt;
-	background-color: var(--bristol-brown);
-	vertical-align: middle;
-}
-.mrcieu {
-	color: #000000;
-	text-align: left;
-	font: bold medium Arial, sans-serif;
+@page {
+  margin: 0;
 }
 
-h1 { color: #21677E; }
-
-th { text-align: left; }
-
-.border { 
-	border: 1px solid black;
-	border-collapse: collapse; 
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
 }
-.striped tr:nth-child(even) {background-color: #e2e2e2;}
