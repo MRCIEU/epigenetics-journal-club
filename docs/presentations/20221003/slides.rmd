@@ -13,6 +13,11 @@ output:
     seal: false
 ---
 
+```{r render, eval=F, echo=F}
+library(rmarkdown)
+render("slides.rmd")
+```
+
 ```{r setup, include=FALSE, cache=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo=F)
