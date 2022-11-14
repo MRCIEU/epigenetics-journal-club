@@ -203,26 +203,7 @@ layout: true
 | 36274151|Clin Epigenetics  |4 lipid measures                                               |blood  |1084 from the Chinese National Twin Registry |19 sites                                   |
 ]
 
----
-.running[Epigenetics]
-
-## Improving histone codes using long-range interactions
-
-Lee D, Yang J, Kim S. **Learning the histone codes with large genomic windows and three-dimensional chromatin interactions using transformer.** *Nat Commun* . doi: [10.1038/s41467-022-34152-5](http://doi.org/10.1038/s41467-022-34152-5)
  
- 
- 
----
-
-.running[Epigenetics]
-
-## CpG density and age-associated DNAm
-
-Higham J ... Sproul D. **Local CpG density affects the trajectory and variance of age-associated DNA methylation changes.** *Genome Biol* . doi: [10.1186/s13059-022-02787-8](http://doi.org/10.1186/s13059-022-02787-8)
-
-[](13059_2022_2787_Fig3_HTML.jpg)
-[](13059_2022_2787_Fig5_HTML.jpg)
-
 ---
 
 .running[Prediction]
@@ -231,6 +212,9 @@ Higham J ... Sproul D. **Local CpG density affects the trajectory and variance o
 
 Hong X ... Li L. **Association Between DNA Methylation and Blood Pressure: A 5-Year Longitudinal Twin Study.** *Hypertension* . doi: [10.1161/HYPERTENSIONAHA.122.19953](http://doi.org/10.1161/HYPERTENSIONAHA.122.19953)
  
+16 CpG sites associated with systolic BP; 20 with diastolic BP
+
+Cross-lagged analysis indicates predictive ability:
  
 &lt;img src=&quot;36345830.png&quot;&gt;&lt;/img&gt;
  
@@ -244,10 +228,21 @@ Hong X ... Li L. **Association Between DNA Methylation and Blood Pressure: A 5-Y
 
 Ori APS, Lu AT, Horvath S, Ophoff RA. **Significant variation in the performance of DNA methylation predictors across data preprocessing and normalization strategies.** *Genome Biol* . doi: [10.1186/s13059-022-02793-w](http://doi.org/10.1186/s13059-022-02793-w)
 
+&lt;img src=&quot;13059_2022_2793_Fig1_HTML.png&quot; style=&quot;width:100%&quot;&gt;&lt;/img&gt;
+
+* &quot;32 out of 41 predictors (78%) demonstrate excellent consistency&quot; 
+* &quot;moderate correlation in performance across analytical strategies (mean rho = 0.40, SD = 0.27)&quot;
+* recommend &quot;OOB background correction, RELIC dye-bias correction, quantile normalization applied separately for methylated and unmethylated intensities of Infinium I and II probes, and RCP to correct for probe design type bias.&quot;
+
+---
+
+.running[Prediction]
 
 
-&gt; &quot;Our analyses are conducted in a large EPIC DNAm array dataset from the Jackson Heart Study (N = 2053) that included 146 pairs of technical replicate samples. By estimating the average absolute agreement between replicate pairs, we show that 32 out of 41 predictors (78%) demonstrate excellent consistency when appropriate data processing and normalization steps are implemented. Across all pairs of predictors, we find a moderate correlation in performance across analytical strategies (mean rho = 0.40, SD = 0.27), highlighting significant heterogeneity in performance across algorithms. Successful or unsuccessful removal of technical variation furthermore significantly impacts downstream phenotypic association analysis, such as all-cause mortality risk associations.&quot;
- 
+&lt;img src=&quot;13059_2022_2793_Fig3_HTML.jpg&quot; style=&quot;width:100%&quot;&lt;/img&gt;
+
+*... but mortality risk by hazard ratio positively associated with technical noise?*
+
 ---
 
 
@@ -257,10 +252,12 @@ Ori APS, Lu AT, Horvath S, Ophoff RA. **Significant variation in the performance
 
 Manoochehri M ... Hamann U. **DNA methylation biomarkers for noninvasive detection of triple-negative breast cancer using liquid biopsy.** *Int J Cancer* . doi: [10.1002/ijc.34337](http://doi.org/10.1002/ijc.34337)
 
+1. Identify 6 top DMRs between tumor and normal breast tissue
+2. Droplet digital PCR applied to cell-free DNA from blood plasma
+   (test: 60 cases, 36 controls; validation: 79 cases, 48 controls)
 
-&gt; &quot;A methylation score combining signatures of the top three DMRs overlapping with the SPAG6, LINC10606 and TBCD/ZNF750 genes had the best capability to discriminate TNBC patients from controls (AUC = 0.78 in the test set and AUC = 0.74 in validation set).&quot;
- 
- 
+&lt;img src=&quot;ijc34337-fig-0004-m.png&quot; style=&quot;width: 66%&quot;&gt;&lt;/img&gt;
+
 ---
 
 .running[Prediction]
@@ -269,13 +266,125 @@ Manoochehri M ... Hamann U. **DNA methylation biomarkers for noninvasive detecti
 
 Kawaguchi ES, Li S, Weaver GM, Lewinger JP. **Hierarchical Ridge Regression for Incorporating Prior Information in Genomic Studies.** *J Data Sci* . doi: [10.6339/21-jds1030](http://doi.org/10.6339/21-jds1030)
  
- 
-`\(min_{\beta} ||y-X\beta||^2 + \lambda||\beta||^2\)`
+We&#39;d often like to use previous knowledge to generate better models, e.g. 
+genes regulated by CpG sites, pathways with genes regulated by CpG sites.
 
-`\(min_{\beta,\gamma} ||y-X\beta||^2 + \lambda_1||\beta-Z\gamma||^2 + \lambda_2||\gamma||^2\)`
 
-where `\(Z\)` describes prior information for each feature.
-For example, a column might correspond to a given gene with 1&#39;s for each CpG site near the gene and 0&#39;s elsewhere. A column might correspond to effect sizes from another EWAS. 
+.pull-left[
+**Ridge regression**
+
+`$$min_{\beta} ||y-X\beta||_2^2 + \lambda||\beta||_2^2$$`
+
+where 
+* `\(y\)` is the variable of interest, 
+* `\(X\)` is the methylation matrix, 
+* `\(\beta\)` is the model coefficients for each CpG site
+]
+
+.pull-right[
+**Hierarchical ridge regression**
+
+`$$min_{\beta,\gamma} ||y-X\beta||_2^2 + \lambda_1||\beta-Z\gamma||_2^2 + \lambda_2||\gamma||_2^2$$`
+where 
+
+* `\(Z\)` describes added information, &lt;br&gt;e.g. identify CpG sites linked to a gene, 
+  effect sizes from a related EWAS
+  
+In other words, we shrink `\(\beta\)` toward prior information and `\(\gamma\)` to 0. 
+If the prior information is not useful, then hierarchical ridge regression 
+reduces to ridge regression. 
+]
+
+---
+
+.running[Prediction]
+
+There is an R package on CRAN.
+
+```r
+install.packages(&quot;xrnet&quot;)
+```
+
+
+```r
+library(xrnet)
+```
+
+To illustrate, we&#39;ll use their example dataset with 200 samples, 
+50 features and 5 external features.
+We split it into 80% for training and 20% for testing.
+
+```r
+data(GaussianExample) 
+is.train &lt;- sample(c(F,T), length(y_linear), prob=c(0.2,0.8), replace=T)
+```
+Here is how to the hierarchical model using cross-validation 
+to optimize `\(\lambda_1\)` and `\(\lambda_2\)`.
+
+```r
+model &lt;- tune_xrnet(
+  x = x_linear[is.train,], ## 50 features for 200 samples
+  y = y_linear[is.train],  ## variable of interest for 200 samples
+  external = ext_linear,   ## 5 external features for 50 features (50x5)
+  family = &quot;gaussian&quot;,   ## outcome variable is numerical
+  penalty_main = define_penalty(0),    ## ridge for features 
+  penalty_external = define_penalty(1) ## lasso for external features
+)
+```
+
+
+```r
+model$opt_penalty      ## lambda_1
+model$opt_penalty_ext  ## lambda_2
+```
+
+Predictions are made as usual:
+
+```r
+pred &lt;- predict(model, newdata=x_linear[!is.train,], type=&quot;response&quot;)
+```
+
+---
+
+.running[Prediction]
+
+.pull-left-30[
+For fun, I&#39;ve plotted model performance for different proportions
+of samples being set aside for training. The &#39;base&#39; is just 
+normal ridge regression.
+
+Notice:
+* Performance improves with training set proportion
+* The hierarchical model tends to perform better
+]
+
+.pull-right-70[
+![](data:image/png;base64,#slides_files/figure-html/unnamed-chunk-9-1.png)&lt;!-- --&gt;
+]
+
+---
+
+.running[Prediction]
+
+.pull-left-30[
+
+The authors trained age predictors in a dataset with 656 samples.
+
+External features `\(Z\)` for hierarchical ridge regression linked CpG sites to 
+genes. In other words, a CpG site would be more likely to play an important
+role in the model if other sites for the gene were chosen to play important 
+roles.
+
+&#39;Augmented ridge regression&#39; is ridge regression applied to the matrix
+`\([X,XZ]\)` rather than just `\(X\)`.
+
+]
+
+.pull-left-70[
+&lt;img src=&quot;hierarchical-ridge-dnamage.png&quot; style=&quot;width: 100%&quot;&gt;&lt;/img&gt;
+]
+
+
 ---
 
 .running[Prediction]
@@ -308,6 +417,22 @@ Wahba NE ... Shinozaki G. **Genome-wide DNA methylation analysis of post-operati
 &gt; &quot;The data that support the findings of this study are available from the corresponding author, G.S., upon reasonable request.&quot;
 
 
+---
+
+.running[Epigenetics]
+
+## CpG density and age-associated DNAm
+
+Higham J ... Sproul D. **Local CpG density affects the trajectory and variance of age-associated DNA methylation changes.** *Genome Biol* . doi: [10.1186/s13059-022-02787-8](http://doi.org/10.1186/s13059-022-02787-8)
+
+Data
+* longitudinal DNA methylation from 600 aged between 67-80
+
+Results
+* 182,760 loci change with age
+* strongest changes 8322 low CpG density loci
+* change at 1487 of these affected by cis SNPs
+* in younger individuals, change at these sites is less variable and mostly loss of methylation
 
 
     </textarea>
@@ -411,7 +536,9 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     s = s[1].replace(token, ''); d = data[s];
     if (d) el.style.backgroundImage = 'url("' + d + '")';
   }
-})({}, 'data:image/png;base64,#');</script>
+})({
+"slides_files/figure-html/unnamed-chunk-9-1.png": "data:image/png;base64,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"
+}, 'data:image/png;base64,#');</script>
 
 <script>
 slideshow._releaseMath = function(el) {
