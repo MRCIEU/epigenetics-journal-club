@@ -1,0 +1,185 @@
+---
+title: "Epigenetic Epidemiology Update"
+author: "Matthew Suderman"
+date: "Nov 14, 2022"
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    css: ["default", "slides.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      countIncrementalSlides: false
+    seal: false
+---
+
+```{r render, eval=F, echo=F}
+library(rmarkdown)
+render("slides.rmd")
+```
+
+```{r setup, include=FALSE, cache=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo=F)
+knitr::read_chunk('slides.r')
+options(htmltools.dir.version = FALSE)
+```
+
+```{r papers, include=FALSE, cache=TRUE}
+```
+
+class: title-slide
+
+.header[
+```{r logo, results="asis"}
+```
+]
+
+# `r rmarkdown::metadata$title`
+
+.large[**`r rmarkdown::metadata$author`**]
+
+.large[**`r rmarkdown::metadata$date`**]
+
+
+---
+
+layout: true
+
+.footer[MRC Integrative Epidemiology Unit]
+
+---
+
+## EWAS
+
+```{r,results="asis"}
+ewas <- read.csv("ewas.csv")
+cols <- c("pmid", "journal", "variable", "tissue", "population", "results")
+
+half <- floor(nrow(ewas)/2)
+
+writeLines(c(
+  ".striped[",
+  kable(ewas[1:half,cols], row.names=F),
+  "]"))
+
+```
+
+---
+
+## EWAS, cont.
+
+```{r,results="asis"}
+writeLines(c(
+  ".striped[",
+  kable(ewas[(half+1):nrow(ewas),cols], row.names=F),
+  "]"))
+```
+
+---
+.running[Epigenetics]
+
+## Improving histone codes using long-range interactions
+
+`r papers["36335101","cite"]`
+ 
+ 
+ 
+---
+
+.running[Epigenetics]
+
+## CpG density and age-associated DNAm
+
+`r papers["36253871","cite"]`
+
+[](13059_2022_2787_Fig3_HTML.jpg)
+[](13059_2022_2787_Fig5_HTML.jpg)
+
+---
+
+.running[Prediction]
+
+## CpG sites predict blood pressure in 5 years
+
+`r papers["36345830","cite"]`
+ 
+ 
+<img src="36345830.png"></img>
+ 
+ 
+
+---
+
+.running[Prediction]
+
+## Predictors affected by preprocessing
+
+`r papers["36280888","cite"]`
+
+
+
+> "Our analyses are conducted in a large EPIC DNAm array dataset from the Jackson Heart Study (N = 2053) that included 146 pairs of technical replicate samples. By estimating the average absolute agreement between replicate pairs, we show that 32 out of 41 predictors (78%) demonstrate excellent consistency when appropriate data processing and normalization steps are implemented. Across all pairs of predictors, we find a moderate correlation in performance across analytical strategies (mean rho = 0.40, SD = 0.27), highlighting significant heterogeneity in performance across algorithms. Successful or unsuccessful removal of technical variation furthermore significantly impacts downstream phenotypic association analysis, such as all-cause mortality risk associations."
+ 
+---
+
+
+.running[Prediction]
+
+## Detecting breast cancer from cell-free DNAm
+
+`r papers["36305646","cite"]`
+
+
+> "A methylation score combining signatures of the top three DMRs overlapping with the SPAG6, LINC10606 and TBCD/ZNF750 genes had the best capability to discriminate TNBC patients from controls (AUC = 0.78 in the test set and AUC = 0.74 in validation set)."
+ 
+ 
+---
+
+.running[Prediction]
+
+## Including prior information when building models
+
+`r papers["36274755","cite"]`
+ 
+ 
+$min_{\beta} ||y-X\beta||^2 + \lambda||\beta||^2$
+
+$min_{\beta,\gamma} ||y-X\beta||^2 + \lambda_1||\beta-Z\gamma||^2 + \lambda_2||\gamma||^2$
+
+where $Z$ describes prior information for each feature.
+For example, a column might correspond to a given gene with 1's for each CpG site near the gene and 0's elsewhere. A column might correspond to effect sizes from another EWAS. 
+---
+
+.running[Prediction]
+
+## Matched buccal and brain DNAm
+
+`r papers["36320053","cite"]`
+
+> "In this study, we performed a correlation analysis between DNAm data of a total of n=120 matched post-mortem buccal and prefrontal cortex samples. We identified nearly 25,000 (3% of approximately 730,000) cytosine-phosphate-guanine (CpG) sites showing significant (false discovery rate q < 0.05) correlations between buccal and PFC samples."
+ 
+> "The DNAm raw data generated and used for the analyses described in this manuscript are available to qualified researchers and qualified research projects."
+ 
+They replicate findings in 
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111165
+(blood, saliva, buccal, **live** brain from 27 epilepsy patients)
+ 
+ 
+---
+
+.running[Prediction]
+
+## Matched brain, blood, saliva and buccal DNAm
+
+`r papers["36270064","cite"]`
+
+> "Methods: The four tissue types (brain, blood, saliva, buccal) of DNA samples from up to 40 patients, including 11 POD cases, were analyzed using Illumina EPIC array. DNAm differences between patients with and without POD were examined. We also conducted enrichment analysis based on the top DNAm signals."
+
+> "Results: The most different CpG site between control and POD was found at cg16526133 near the ADAMTS9 gene from the brain tissue(p = 8.66E-08). However, there are no CpG sites to reach the genome-wide significant level."
+
+> "The data that support the findings of this study are available from the corresponding author, G.S., upon reasonable request."
+
+
+
+
