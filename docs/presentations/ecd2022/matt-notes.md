@@ -281,9 +281,9 @@ Did any gene have OMR overrepresentation?
 
 ## Elad Segev
 
-Discontinuities aging: artificial intelligence for identifying switch points in DNA methylation
+Epigenetic aging waves, switch points in DNA
 
-
+Only _nine_ genes are responsible for the majority of accelerated aging
 
 
 
