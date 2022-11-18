@@ -283,7 +283,146 @@ Did any gene have OMR overrepresentation?
 
 Epigenetic aging waves, switch points in DNA
 
-Only _nine_ genes are responsible for the majority of accelerated aging
+Only **nine** genes are responsible for the majority of accelerated aging
+
+DNAm at many sites does not change linearly with time
+
+Dickey-Fuller stationary test used to remove sites that don't change with age (mean or variance)
+
+Modelling changes with age
+- pieces regression results in many errors
+- first derivative sigmoid fitting analysis (seemed better)
+
+Results (in approx 2000 samples)
+- 5000 sites with 'switch point', 4000 in common between men and women
+- switch points cluster at 3 different ages
+- published on biorxiv https://www.biorxiv.org/content/10.1101/2022.10.02.510495v1
+
+## Jacob Bergstedt
+The immune factors driving DNA methylation variation in human blood
+
+(extended) IDOL cell composition estimates
+- Salas et al PMID 35140201
+- includes CD4 and CD8 T cell subsets
+
+Adjusting for only 6 cell types in blood leaves a lot of remaining cell count effects
+e.g. for age: 35701 associations when adjusting for 16 cell types, 118885 when adjusting for 6
+e.g. 88K associations with CMV mediated by cell composition 
+
+However, little effect on sex and smoking associations.
+
+189 sites associated with CMV after more complete adjustment
+most of them are binding sites for a single transcription factor BRD4
+
+## Nora Franceschini
+
+Epigenetics and human genetic diversity
+
+Disease burden varies across populations due to
+- genetics
+- group exposures - pollution
+- individual exposures - lifestyle
+
+Chronic kidney disease 
+- most common causes: diabetes and hypertension
+- estimated glomerular filtration rate 
+
+EWAS (n=5428) of differences between
+- african americans
+- european americans
+- hispanic/latinos
+
+13 DMPs replicated in 8109 EA and AA
+
+Overrepresentation in kidney-specific gene regions
+
+Major problem: reference datasets are almost entirely based on Europeans, 
+including immortalised cell lines.
+This could reduce ability to correctly interpret findings in non-Europeans, 
+especially related to diseases are more rare in Europeans 
+than in certain non-European groups.
+
+## Løkås Haftorn
+
+Nucleated red blood cells explain most of the association between DNA methylation and gestational ageKristine 
+
+Data
+- data Moba cord blood DNAm (n=953)
+- reference-based cell count estimates
+
+Methods
+- Conventional EWAS
+- CellDMC (uses interaction terms with cell counts to estimate cell-type specific effects)
+
+CellDMC finds 231 associations (80% of all) in nucleated red blood cell (nRBC) DNAm
+Replicated in another dataset
+
+nRBCs disappear disappear within a few days of birth
+
+May explain why peripheral blood collected after birth is weakly associated with gestational age
+
+## Lucy Sinke
+
+Circulating interleukin-6 levels are associated with DNA methylation in regulatory regions of key inflammatory genes
+
+- EWAS meta-analysis of 4361 samples (whole blood)
+- EWAS of 994 samples (CD4+ T cells) 
+
+## Rong Fan
+
+Spatial Epigenome Sequencing
+
+Sheeeeeeeeeeeeit! 
+
+## Ariel Gershman
+
+The first complete human genome and epigenome
+
+Used CHM13 cell line - had two copies of the paternal genome rather than maternal and paternal
+- Added 182 Mbp of new sequence, removed 1.2 Mbp of falsely duplicated sequence
+- Annote 2226 new genes, of which 115 protein coding
+
+Novel mapping technique (to use short-read sequencing for repetitive DNA)
+- Identify unique 95mer sequences 
+- However, some regions have no unique 95mers
+
+Solution: Nanopore long-read sequencing
+
+Results
+
+- because no amplification, removes GC-bias from data
+- 3 million more CpG sites can be measured (vs short-read WGBS)
+- **used M.CviPI methyltransferase to decorate accessible chromatin with exogenous GpC methylation, this allowed detection of DNAm and DNA accessibility on the same read**
+- identified gene regions with identical repetitive DNA sequence but different epigenetic state
+
+April 2022 edition of Science
+https://pubmed.ncbi.nlm.nih.gov/35357917/
+https://pubmed.ncbi.nlm.nih.gov/35357915/
+https://pubmed.ncbi.nlm.nih.gov/35357925/
+https://pubmed.ncbi.nlm.nih.gov/35357911/
+https://pubmed.ncbi.nlm.nih.gov/33230324/
+
+In the discussion stages to generate data for samples from a human population rather than from cell lines.
+
+## Duncan Sproul
+
+Single molecule analysis of DNA methylation in long reads
+
+https://www.biorxiv.org/content/10.1101/2022.11.15.516549v1
+
+Nanopore sequencing data derived from GM24385 lymphoblastoid cells. 
+
+This consisted of 6,289,480 reads aligned to autosomes with a mean length of 24.6kb
+
+In heterochromatin, DNAm correlation between sites oscillate at 180bp -- seems due to nucleosomes
+
+## Sarah Marzi
+
+Mouse model of Alzheimers disease
+
+Most genetic risk seems to be mediated by microglia, APOE appears central
+
+APOE chimeric mouse model 
 
 
 
