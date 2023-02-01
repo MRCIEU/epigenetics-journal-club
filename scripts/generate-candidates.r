@@ -17,10 +17,18 @@ if (length(args) > 2)
 if (file.exists(filename))
     stop("Output file", filename, "already exists.")
 
-cat(paste("Looking back", days, "days for new papers ...\n"))
+cat(paste("Looking back", days, "days for new papers."))
+
+cat(paste(
+    "Should take about",
+    round(length(readLines("data/presented.txt"))/1600*30,0),
+    "minutes ...\n"))
 
 library(journalclub) ## https://github.com/perishky/journalclub 
-candidates <- journalclub.candidates("data", recent=days)
+candidates <- journalclub.candidates("data", recent=days, retmax=5, debug=F)
+## If the command above gives an error about "XML content",
+## then pubmed retrieval output has been restricted so
+## you might need to reduce "retmax" and try again.
 
 write.csv(candidates[,c("pmid","title","source","abstract")], file=filename, row.names=F) 
 
