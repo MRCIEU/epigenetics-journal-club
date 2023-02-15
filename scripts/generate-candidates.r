@@ -25,7 +25,7 @@ cat(paste(
     "minutes ...\n"))
 
 library(journalclub) ## https://github.com/perishky/journalclub 
-candidates <- journalclub.candidates("data", recent=days, retmax=5, debug=F)
+candidates <- journalclub.candidates("data", recent=days, retmax=10, debug=F)
 ## If the command above gives an error about "XML content",
 ## then pubmed retrieval output has been restricted so
 ## you might need to reduce "retmax" and try again.
