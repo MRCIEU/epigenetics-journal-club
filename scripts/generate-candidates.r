@@ -1,4 +1,4 @@
-## Rscript --vanilla scripts/generate-candidates.r [DAYS] [FILENAME]
+ ## Rscript --vanilla scripts/generate-candidates.r [DAYS] [FILENAME]
 
 days <- 30
 filename <- "candidates.csv"
@@ -33,3 +33,5 @@ candidates <- journalclub.candidates("data", recent=days, retmax=10, debug=F)
 write.csv(candidates[,c("pmid","title","source","abstract")], file=filename, row.names=F) 
 
 cat(paste0("Candidate papers saved to '", filename, "'.\n"))
+
+
