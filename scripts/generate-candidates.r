@@ -4,15 +4,16 @@ days <- 60
 filename <- "candidates.csv"
 
 args <- commandArgs(trailingOnly=TRUE)
-if (length(args) > 1) {
-    days <- as.integer(args[2])
+
+if (length(args) > 0) {
+    days <- as.integer(args[1])
     if (days < 30 || days > 365) {
         warning(paste("Requested value", days, "is too extreme!"))
         days <- 60
     }
 }
-if (length(args) > 2) 
-    filename <- args[3]
+if (length(args) > 1) 
+    filename <- args[2]
 
 if (file.exists(filename))
     stop("Output file", filename, "already exists.")
