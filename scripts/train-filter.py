@@ -1,18 +1,37 @@
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
+import torch
+import csv
+
+## a <- journalclub.annotate(x)
+## EC,Date,Category,Paper ID,Title,Journal,Summary
+ec = []
+category = []
+title = []
+summary = []
+with open("../data/papers.csv", mode="r", encoding="ISO-8859-1") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        ec.append(row["EC"])
+        category.append(row["Category"])
+        title.append(row["Title"])
+        summary.append(row["Summary"])
 
 # Sample positive and negative examples
-positive_examples = ["I love this product!", "This is amazing.", "Great service."]
-negative_examples = ["Terrible experience.", "Not satisfied at all.", "Waste of money."]
+#positive_examples = ["I love this product!", "This is amazing.", "Great service."]
+#negative_examples = ["Terrible experience.", "Not satisfied at all.", "Waste of money."]
 
 # Labels for positive and negative examples
-positive_labels = [1] * len(positive_examples)
-negative_labels = [0] * len(negative_examples)
+#positive_labels = [1] * len(positive_examples)
+#negative_labels = [0] * len(negative_examples)
 
 # Combine positive and negative examples and labels
-all_examples = positive_examples + negative_examples
-all_labels = positive_labels + negative_labels
+#all_examples = positive_examples + negative_examples
+#all_labels = positive_labels + negative_labels
+all_examples = summary
+all_labels = [ v == "Yes" for v in ec ]
+
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(all_examples, all_labels, test_size=0.2, random_state=42)
@@ -53,6 +72,8 @@ print(classification_report(y_test, predictions))
 
 # Example usage
 new_example = ["This is a fantastic product!"]
+new_example = ["This is a terrible waste of money!"]
+new_example = ["Waste of money"]
 new_example_encoded = tokenizer(new_example, truncation=True, padding=True, return_tensors='pt')
 with torch.no_grad():
     new_example_output = model(**new_example_encoded)
