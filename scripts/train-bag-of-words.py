@@ -10,8 +10,8 @@ import torch
 import csv
 import numpy
 
-## categories: ewas, methods, dnamage, prediction, epigenetics
-category = "ewas"
+## categories: ewas, methods, dnamage, prediction, epigenetics, *
+category = "*"
 
 cases = set()
 with open("data/papers.csv",mode="r", encoding="ISO-8859-1") as csvfile:
@@ -132,12 +132,17 @@ print(f"With no model, this increases to {1/precision[0]-1:0.1f} bad papers")
 # With no model, this increases to 15.8 bad papers
 
 
-
-# Applying to new data
-new_example = examples[0:3]
-new_example = vectorizer.transform(new_example)
-new_example = numpy.array(new_example.todense())
-new_probs = classifier.predict_proba(new_example)
-[(labels[i],new_probs[i][1]) for i in range(len(new_probs))]
-
-
+## apply to a set of candidate papers in candidates.csv
+with open("candidates.csv",mode="r", encoding="ISO-8859-1") as infile:
+    with open("candidates-with-probs.csv",mode="w", encoding="ISO-8859-1") as outfile:
+        reader = csv.DictReader(infile)
+        writer = csv.DictWriter(outfile,fieldnames=reader.fieldnames + ["probs"])
+        writer.writeheader()
+        for row in reader:
+            new_paper = row["source"]+". "+row["title"]+". "+row["abstract"]
+            new_paper = vectorizer.transform([new_paper])
+            new_paper = numpy.array(new_paper.todense())
+            new_prob = classifier.predict_proba(new_paper)[0]
+            new_prob = new_prob[1]/sum(new_prob)
+            row["probs"] = new_prob
+            writer.writerow(row)
