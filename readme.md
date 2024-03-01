@@ -38,6 +38,19 @@ These defaults can be changed, e.g.
   Rscript --vanilla scripts/generate-candidates.r 60 jc.csv
   ```
 
+
+## Experimental
+
+Probabilities of interest can be assigned to papers using
+a simple script script/train-bag-of-words.py.
+
+```
+python script/train-bag-of-words.py
+```
+
+This will load the generated 'candidates.csv' file, calculate probabilities
+and save the result in a file called 'candidates-with-probs.csv'.
+
 *Once you have selected papers to present, add their PMIDs to "data/presented.txt"
 and add the list of papers to 'data/papers.csv'.*
 
