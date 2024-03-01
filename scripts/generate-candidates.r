@@ -31,6 +31,10 @@ candidates <- journalclub.candidates("data", recent=days, retmax=10, debug=F)
 ## then pubmed retrieval output has been restricted so
 ## you might need to reduce "retmax" and try again.
 
+blacklisted <- readLines("data/blacklisted.txt")
+keep <- !(tolower(gsub(" ", "", candidates$source)) %in% blacklisted)
+candidates <- candidates[keep,]
+
 write.csv(candidates[,c("pmid","title","source","abstract")], file=filename, row.names=F) 
 
 cat(paste0("Candidate papers saved to '", filename, "'.\n"))

@@ -10,11 +10,17 @@ briefly presented and discussed. This repository contains:
 ## How candidate papers are selected 
 
 Candidate papers are all those published since the last meeting
-that come up in a pubmed query (saved in "data/pubmed-query.txt")
-or cite a paper presented in a
-previous journal club (saved in "data/presented.txt"). Any papers
-that have come up in previous searches but were not selected for
-presentation are ignored (saved in "data/ignore.txt").
+that 
+
+1. come up in a pubmed query (saved in "data/pubmed-query.txt"), OR
+
+2. cite a paper presented in a previous journal club (saved in "data/presented.txt") AND
+
+3. do not appear in  journal whose name is in "data/blacklisted.txt" AND
+
+4. has not come up in previous searches but was not selected for
+   presentation (these are papers are saved in "data/ignore.txt").
+
 
 ## Generating a list of candidate papers 
 
